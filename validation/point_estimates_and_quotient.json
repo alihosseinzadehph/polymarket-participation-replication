@@ -1,0 +1,61 @@
+{
+  "concentration": {
+    "event_gini": 0.9325873916941294,
+    "top_one_percent_event_amount_share": 0.640037221957989,
+    "wallet_gini": 0.9623243404979402,
+    "top_one_percent_wallet_amount_share": 0.7922385149797965
+  },
+  "mapped_graph": {
+    "wallets": 3106514,
+    "events": 764378,
+    "wallet_event_edges_from_both_degree_tables": 255704359,
+    "amount_groups": 149,
+    "off_diagonal_undirected_group_pairs": 1289,
+    "amount_bipartite_modularity_at_gamma_one": 0.6729080437562294
+  },
+  "powerlaw": {
+    "top1000_selected": {
+      "n": 1000,
+      "n_tail": 375,
+      "xmin": 10496709.649462996,
+      "ks": 0.025721351156916816,
+      "alpha": 2.316510274988085
+    },
+    "leaderboard_volume": {
+      "n": 1000,
+      "n_tail": 560,
+      "xmin": 42551673.446243,
+      "ks": 0.028729296053051967,
+      "alpha": 2.3624460520079618
+    },
+    "leaderboard_pnl": {
+      "n": 1000,
+      "n_tail": 257,
+      "xmin": 792886.5526581662,
+      "ks": 0.03421565908781399,
+      "alpha": 2.322032140709142
+    }
+  },
+  "election": {
+    "bottom_jsd_bits": {
+      "amount_profile": 0.2777156318219084,
+      "equal_wallet_profile": 0.04615374702002201,
+      "prevalence_profile": 0.060952909366998535,
+      "amount_edges": 0.4568845591593239,
+      "equal_wallet_edges": 0.251695651791695,
+      "binary_edges": 0.18596002023232266
+    },
+    "top_jsd_bits": {
+      "amount_profile": 0.07282034370148822,
+      "equal_wallet_profile": 0.024823976398900605,
+      "prevalence_profile": 0.012555724017670342,
+      "amount_edges": 0.24324156752143888,
+      "equal_wallet_edges": 0.13367223171276577,
+      "binary_edges": 0.07385380025993388
+    }
+  },
+  "bicm": {
+    "pair_expectations_checked": 210,
+    "null_simulations_per_pair": 0
+  }
+}

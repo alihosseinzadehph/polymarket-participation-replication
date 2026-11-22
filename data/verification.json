@@ -1,0 +1,35 @@
+{
+  "scope": "Offline checks of the publication data against the frozen study and retrieval artifacts; not a fresh trade download or evidence of independent human coding.",
+  "gamma": {
+    "original_gzip_hashes_recomputed_and_matched": 3,
+    "event_dictionary_rows": 931023,
+    "unique_event_ids": 931023,
+    "unique_v3_subject_ids": 21,
+    "all_eight_released_dictionary_columns_match_the_full_frozen_v3_research_frame": true,
+    "original_condition_records": 2948008,
+    "missing_condition_id": 1380,
+    "clean_condition_rows": 2946628,
+    "all_clean_condition_event_ids_exist_in_dictionary": true,
+    "focal_election_conditions_with_two_outcomes_and_two_token_ids": 17
+  },
+  "concentration": {
+    "observed_mapped_event_count": 764378,
+    "observed_event_usdc": 41308834238.29664,
+    "event_gini_recomputed": 0.9325873916941292,
+    "fig2_top1000_event_amounts_max_abs_difference": 0.0,
+    "all_archive_positive_wallet_amount_count": 3106517,
+    "all_archive_wallet_gini_recomputed": 0.9623243404979405
+  },
+  "mapped_bipartite_degree_distributions": {
+    "event_nodes": 764378,
+    "wallet_nodes": 3106514,
+    "sum_of_degrees_on_each_side": 255704359,
+    "frequencies_recomputed_from_both_sparse_matrix_offset_arrays_match_CSN_histograms_exactly": true
+  },
+  "leaderboard": {
+    "API_ranks_checked_against_paper_input": 2000,
+    "overall_all_pnl_and_vol_paper_top1000_common_accounts": 402,
+    "account_equivalence_matches_original_frozen_pseudonyms": true,
+    "numeric_precision_note": "Absolute differences between archived API and analysis CSV were at most 1.1920928955078125e-7 for volume and 3.725290298461914e-9 for reported PnL. The analysis input retains the frozen CSV's printed values."
+  }
+}

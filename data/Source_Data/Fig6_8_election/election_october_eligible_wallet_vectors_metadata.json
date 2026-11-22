@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "purpose": "Exact row-order replay input for the historical six-view eligible-wallet bootstrap",
+  "rows": 1630,
+  "subjects": [
+    "bitcoin",
+    "commodities",
+    "crypto_alts",
+    "crypto_majors",
+    "crypto_short_horizon",
+    "economy_macro",
+    "entertainment",
+    "finance_technology",
+    "meta_mentions",
+    "other",
+    "politics_global",
+    "politics_us_federal",
+    "politics_us_local",
+    "sports_baseball",
+    "sports_basketball",
+    "sports_esports",
+    "sports_hockey",
+    "sports_nfl",
+    "sports_other",
+    "sports_soccer",
+    "sports_tennis",
+    "weather"
+  ],
+  "cohort_order": [
+    "HB",
+    "TB",
+    "HT",
+    "TT"
+  ],
+  "cohort_counts": {
+    "HB": {
+      "eligible": 504,
+      "active": 360,
+      "zero_rows": 144
+    },
+    "TB": {
+      "eligible": 541,
+      "active": 308,
+      "zero_rows": 233
+    },
+    "HT": {
+      "eligible": 334,
+      "active": 168,
+      "zero_rows": 166
+    },
+    "TT": {
+      "eligible": 251,
+      "active": 135,
+      "zero_rows": 116
+    }
+  },
+  "privacy": "Fresh row IDs; no addresses or original opaque wallet IDs are exported",
+  "construction": "Preserve NPZ eligible-row order; insert released 22-subject active vectors into original nonzero-October positions and zero vectors elsewhere",
+  "order_evidence": "analysis_code/election/build_compact_vectors.py exports active_indices=np.flatnonzero(...) in original NPZ order",
+  "active_row_totals_checked": true,
+  "maximum_total_roundoff_usdc": 7.450580596923828e-09,
+  "inputs": {
+    "analysis_arrays.npz": "c60bd3681bbe9261bfc9c60576c9638de700d655e6ff9970f5592da764ce1058",
+    "released_active_csv": "d52ed9b3464437d243e452d7659cf72426b82b4c1740a92807591573725d0e24"
+  },
+  "formation_cutoffs_usdc": {
+    "bottom_5_max": 1.09414,
+    "top_5_min": 2787.7355399999997
+  },
+  "builder": "analysis_code/election/reproduce_six_view_bootstrap.py --build-from-arrays PATH",
+  "builder_sha256": "a9889dd48aa80c575231b5121c251376a4ebf4b83e9e885d743e4347fa84f37c",
+  "csv": {
+    "name": "election_october_eligible_wallet_vectors.csv",
+    "sha256": "0c3b3a25113d84894e0ffe0dcfe919d90cc147a6ecd61feb8260f95edd48ec8d"
+  }
+}

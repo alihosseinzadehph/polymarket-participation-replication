@@ -1,0 +1,123 @@
+{
+  "concentration": {
+    "event_gini": 0.9325873916941294,
+    "top_one_percent_event_amount_share": 0.640037221957989,
+    "wallet_gini": 0.9623243404979402,
+    "top_one_percent_wallet_amount_share": 0.7922385149797965
+  },
+  "mapped_graph": {
+    "wallets": 3106514,
+    "events": 764378,
+    "wallet_event_edges_from_both_degree_tables": 255704359
+  },
+  "powerlaw": {
+    "top1000_selected": {
+      "n": 1000,
+      "n_tail": 375,
+      "xmin": 10496709.649462996,
+      "ks": 0.025721351156916816,
+      "alpha": 2.316510274988085,
+      "p_csn_raw": 0.7332,
+      "alpha_ci": [
+        2.096397098984891,
+        2.522010303915487
+      ]
+    },
+    "leaderboard_volume": {
+      "n": 1000,
+      "n_tail": 560,
+      "xmin": 42551673.446243,
+      "ks": 0.028729296053051967,
+      "alpha": 2.3624460520079618,
+      "p_csn_raw": 0.1532,
+      "alpha_ci": [
+        2.2350121331442674,
+        2.6852900448956256
+      ]
+    },
+    "leaderboard_pnl": {
+      "n": 1000,
+      "n_tail": 257,
+      "xmin": 792886.5526581662,
+      "ks": 0.03421565908781399,
+      "alpha": 2.322032140709142,
+      "p_csn_raw": 0.2572,
+      "alpha_ci": [
+        2.0681054489388813,
+        2.4856465299431876
+      ]
+    }
+  },
+  "election": {
+    "bottom_jsd_bits": {
+      "amount_profile": 0.2777156318219084,
+      "equal_wallet_profile": 0.04615374702002201,
+      "prevalence_profile": 0.060952909366998535,
+      "amount_edges": 0.4568845591593239,
+      "equal_wallet_edges": 0.251695651791695,
+      "binary_edges": 0.18596002023232266
+    },
+    "top_jsd_bits": {
+      "amount_profile": 0.07282034370148822,
+      "equal_wallet_profile": 0.024823976398900605,
+      "prevalence_profile": 0.012555724017670342,
+      "amount_edges": 0.24324156752143888,
+      "equal_wallet_edges": 0.13367223171276577,
+      "binary_edges": 0.07385380025993388
+    },
+    "eligible_bootstrap": {
+      "profile_amount": {
+        "estimate_bottom_minus_top": 0.24429999529542518,
+        "bootstrap_95_interval": [
+          0.03091284509966131,
+          0.5084756411718865
+        ],
+        "fraction_positive": 0.9889944972486243
+      },
+      "profile_equal_wallet": {
+        "estimate_bottom_minus_top": 0.010432846827168663,
+        "bootstrap_95_interval": [
+          -0.02802249825160569,
+          0.04129716739952947
+        ],
+        "fraction_positive": 0.7138569284642321
+      },
+      "profile_prevalence": {
+        "estimate_bottom_minus_top": 0.042505341804781445,
+        "bootstrap_95_interval": [
+          0.01955436772891128,
+          0.06592664531747126
+        ],
+        "fraction_positive": 1.0
+      },
+      "edge_amount": {
+        "estimate_bottom_minus_top": 0.20353052971125934,
+        "bootstrap_95_interval": [
+          -0.04300856676032649,
+          0.4269268211946772
+        ],
+        "fraction_positive": 0.9489744872436218
+      },
+      "edge_equal_wallet": {
+        "estimate_bottom_minus_top": 0.08237792242349642,
+        "bootstrap_95_interval": [
+          0.0003818098519288778,
+          0.1554566410156908
+        ],
+        "fraction_positive": 0.9759879939969985
+      },
+      "edge_binary": {
+        "estimate_bottom_minus_top": 0.08866311250072156,
+        "bootstrap_95_interval": [
+          0.024001325600776762,
+          0.15225229350385927
+        ],
+        "fraction_positive": 0.9964982491245623
+      }
+    }
+  },
+  "bicm": {
+    "pair_expectations_checked": 210,
+    "null_simulations_per_pair": 19999
+  }
+}

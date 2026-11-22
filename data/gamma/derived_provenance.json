@@ -1,0 +1,67 @@
+{
+  "taxonomy": "event-taxonomy-v3.0.0",
+  "event_dictionary_rows": 931023,
+  "unique_category_ids": 21,
+  "original_label_table_sha256": "e689aad11e66a0bfb3a74986773febf057fd9e4f1de539a708bde78320af5139",
+  "classification_basis_counts": {
+    "tag": 221825,
+    "political_fallback": 1168,
+    "outcome_rule": 17393,
+    "text": 3617,
+    "fallback": 2110,
+    "contract_form": 684910
+  },
+  "upstream_observed_event_totals_sha256": "601a91e4bd02939480842e5e00514846217983504478e88679902f31e071ab95",
+  "unmapped_event_keys_excluded_from_event_analysis": 596,
+  "mapped_event_rows": 764378,
+  "mapped_event_usdc": 41308834238.29663,
+  "upstream_clean_condition_table_sha256": "08a87024b91573edfac20762adf2d793b1dd2a06d60ec5d409039d172f4bfbd6",
+  "unique_clean_condition_rows": 2946628,
+  "condition_map_parts": [
+    {
+      "file": "part-00.parquet",
+      "rows": 280000
+    },
+    {
+      "file": "part-01.parquet",
+      "rows": 280000
+    },
+    {
+      "file": "part-02.parquet",
+      "rows": 280000
+    },
+    {
+      "file": "part-03.parquet",
+      "rows": 280000
+    },
+    {
+      "file": "part-04.parquet",
+      "rows": 280000
+    },
+    {
+      "file": "part-05.parquet",
+      "rows": 280000
+    },
+    {
+      "file": "part-06.parquet",
+      "rows": 280000
+    },
+    {
+      "file": "part-07.parquet",
+      "rows": 280000
+    },
+    {
+      "file": "part-08.parquet",
+      "rows": 280000
+    },
+    {
+      "file": "part-09.parquet",
+      "rows": 280000
+    },
+    {
+      "file": "part-10.parquet",
+      "rows": 146628
+    }
+  ],
+  "encoding": "condition_id is fixed 32-byte binary: append lowercase hexadecimal representation to 0x to recover a condition identifier. Event/market IDs are decimal integers. Use event_id as key to the event dictionary (cast to the same type)."
+}

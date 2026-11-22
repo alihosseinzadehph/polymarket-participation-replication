@@ -1,0 +1,135 @@
+schema_version: 1
+taxonomy_version: "event-taxonomy-v3.0.0"
+description: >-
+  Deterministic event-subject rules for the 2022-2026 CLOB archive. Specific
+  outcome/contract-form overrides and geographic guards are implemented in
+  taxonomy.py. Otherwise, rules are evaluated in listed order, with either
+  tag or title evidence. Generic tags no longer suppress all specific text
+  matches. Classification is reproducible, not independently human-validated.
+
+categories:
+  - id: crypto_short_horizon
+    label: "Crypto — Intraday price"
+    legacy: "Crypto — Majors"
+    tags: [5m, 15m, 1h, 4h, hourly]
+    text: ["up-or-down", "up or down", "price at .* (am|pm|utc)"]
+
+  - id: sports_esports
+    label: "Sports — Esports"
+    legacy: "Other"
+    tags: [esports, league-of-legends, dota-2, counter-strike, valorant]
+    text: ["esports", "league of legends", "dota", "counter-strike", "valorant"]
+
+  - id: sports_nfl
+    label: "Sports — NFL/CFB"
+    legacy: "Sports — NFL/CFB"
+    tags: [nfl, cfb, college-football, american-football, super-bowl, superbowl]
+    text: ["\\b(nfl|cfb)\\b", "super ?bowl", "college football"]
+
+  - id: sports_basketball
+    label: "Sports — Basketball"
+    legacy: "Sports — NBA"
+    tags: [nba, basketball, wnba, ncaa-basketball, euroleague]
+    text: ["\\b(nba|wnba)\\b", "basketball", "march madness"]
+
+  - id: sports_baseball
+    label: "Sports — Baseball"
+    legacy: "Sports — MLB"
+    tags: [mlb, baseball]
+    text: ["\\bmlb\\b", "baseball", "world series"]
+
+  - id: sports_hockey
+    label: "Sports — Hockey"
+    legacy: "Sports — NHL/Hockey"
+    tags: [nhl, hockey]
+    text: ["\\bnhl\\b", "hockey", "stanley cup"]
+
+  - id: sports_soccer
+    label: "Sports — Soccer"
+    legacy: "Sports — Soccer"
+    tags: [soccer, premier-league, champions-league, ucl, fifa-world-cup]
+    text: ["soccer", "premier league", "champions league", "fifa", "world cup"]
+
+  - id: sports_tennis
+    label: "Sports — Tennis"
+    legacy: "Sports — Tennis"
+    tags: [tennis, atp, wta]
+    text: ["tennis", "\\batp\\b", "\\bwta\\b", "wimbledon"]
+
+  - id: sports_other
+    label: "Sports — Other"
+    legacy: "Other"
+    tags: [sports, formula-1, golf, mma, ufc, boxing, cricket, olympics, games]
+    text: ["formula 1", "\\bf1\\b", "golf", "\\bufc\\b", "boxing", "cricket", "olympic"]
+
+  - id: politics_us_local
+    label: "Politics — US state/local"
+    legacy: "US Politics — State/Local"
+    tags: [state-elections, local-politics, governor, mayor, california-midterm, nyc]
+    text: ["\\b(governor|mayor|gubernatorial)\\b", "state election", "city council", "state supreme court", "wisconsin supreme court", "state senate", "state legislature"]
+
+  - id: politics_us_federal
+    label: "Politics — US federal"
+    legacy: "US Politics — Federal"
+    tags: [us-politics, united-states, us-election, us-presidential-election, usa-election, trump-presidency]
+    text: ["\\b(trump|biden|president|presidential|congress|senate|white house)\\b", "us election", "u.s. election"]
+
+  - id: politics_global
+    label: "Politics — Other/global"
+    legacy: "Global Politics — Other/global"
+    tags: [geopolitics, global-elections, world-elections, middle-east, israel, iran, elections]
+    text: ["geopolit", "ceasefire", "invasion", "global election", "prime minister", "parliament"]
+
+  - id: crypto_alts
+    label: "Crypto — Alts/DeFi/stablecoins"
+    legacy: "Crypto — Alts/Memecoins/DeFi/Stablecoins"
+    tags: [defi, memecoins, stablecoins, altcoins, crypto-listings, exchange]
+    text: ["\\b(defi|memecoin|stablecoin|altcoin|airdrop)\\b", "token listing"]
+
+  - id: crypto_majors
+    label: "Crypto — Majors"
+    legacy: "Crypto — Majors"
+    tags: [bitcoin, ethereum, solana, xrp, crypto]
+    text: ["\\b(bitcoin|btc|ethereum|eth|solana|sol|xrp)\\b"]
+
+  - id: economy_macro
+    label: "Economy — Macro"
+    legacy: "Economy & Macro"
+    tags: [economy, fed-rates, economic-policy, macro-fed, inflation, gdp, jobs]
+    text: ["\\b(inflation|gdp|recession|unemployment|federal reserve|fed rate|interest rate)\\b"]
+
+  - id: commodities
+    label: "Finance — Commodities"
+    legacy: "Commodities"
+    tags: [commodities, oil, gold, silver, natural-gas]
+    text: ["\\b(oil|gold|silver|natural gas|commodity|commodities)\\b"]
+
+  - id: finance_technology
+    label: "Finance — Stocks/technology"
+    legacy: "Stocks & Tech"
+    tags: [finance, stocks, tech, sci-tech, big-tech, ai, business, ipos]
+    text: ["\\b(stock|shares|ipo|nasdaq|s&p|dow jones|artificial intelligence)\\b"]
+
+  - id: weather
+    label: "Weather and climate"
+    legacy: "Other"
+    tags: [weather, daily-temperature, climate, hurricane]
+    text: ["temperature", "weather", "hurricane", "rainfall", "snowfall"]
+
+  - id: entertainment
+    label: "Culture — Entertainment/awards"
+    legacy: "Entertainment & Awards"
+    tags: [culture, music, movies, awards, box-office, entertainment]
+    text: ["\\b(oscar|grammy|emmy|movie|album|song|box office)\\b"]
+
+  - id: meta_mentions
+    label: "Meta — Mentions/trending"
+    legacy: "Meta / Trending"
+    tags: [mentions, tweet-markets, meta, trending, recurring]
+    text: ["\\b(tweet|mention|say during|post on x)\\b"]
+
+  - id: other
+    label: "Other"
+    legacy: "Other"
+    tags: []
+    text: []

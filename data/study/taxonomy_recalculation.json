@@ -1,0 +1,37 @@
+{
+  "taxonomy_version": "event-taxonomy-v3.0.0",
+  "metadata_records": 931023,
+  "classification_basis_metadata": {
+    "tag": 221825,
+    "political_fallback": 1168,
+    "outcome_rule": 17393,
+    "text": 3617,
+    "fallback": 2110,
+    "contract_form": 684910
+  },
+  "classification_basis_observed": {
+    "contract_form": 577413,
+    "tag": 169526,
+    "outcome_rule": 13622,
+    "text": 1977,
+    "political_fallback": 1082,
+    "fallback": 758
+  },
+  "changed_metadata_category_ids": 20115,
+  "changed_observed_category_ids": 18619,
+  "changed_observed_volume": 6138563528.5457535,
+  "observed_event_count": 764378,
+  "mapped_sample_fills": 4999776,
+  "detailed_classes": 21,
+  "fit_groups": 38,
+  "source_events_sha256": "e9ee2aebda35d9a7dfaeedad0815e1b38a4d5644b51d434b2651c7dedd277936",
+  "source_sample_sha256": "aaac9d2b1625c3023dfe8d4ab9f00efb324a243968c445dd9bee4c6390109696",
+  "rules_sha256": "52298a71203444c3fcaeb3bd1dbae883afcb2bc8477555974d2863ea4a871aea",
+  "classifier_sha256": "5754ec74d4152f939ea973bd6f38801bfd36f3ff95913b0166fc6ae43a27bcf5",
+  "category_samples_sha256": "9586cb525b02bb7ae0d223d1f1532b75fd7c00ac2b8e63f91bc398c6e421e520",
+  "elapsed_seconds": 84.08457279205322,
+  "human_accuracy_validation": "not performed; regression tests and rule corrections are not independent human coding",
+  "daily_predictive_results": "withdrawn from active manuscript because old category-day aggregates cannot be exactly reassigned without event-day inputs or a raw scan",
+  "market_data_downloaded": false,
+  "raw_fills_scanned": false
+}

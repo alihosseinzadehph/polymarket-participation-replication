@@ -1,0 +1,286 @@
+key,family,label,candidate_budget,alpha,xmin,ks,n,n_tail,index,selector,candidate_count,exhaustive
+all_events,global,All event volumes,120,1.9150240798268219,84782.43662599984,0.02063104855858966,764378,47412,716966,ks,238,False
+all_events,global,All event volumes,500,1.919493816428616,82023.24249300003,0.020235144947861383,764378,49111,715267,ks,997,False
+all_events,global,All event volumes,500,1.3373953980416085,396.42042200000014,1.9999999999999996,764378,504002,260376,reweighted_ks,997,False
+all_events,global,All event volumes,500,1.903544476806792,92000.6444849998,0.03344800722900962,764378,43466,720912,kuiper,997,False
+all_events,global,All event volumes,1000,1.918878932146404,82218.50620399999,0.020246618122004456,764378,48971,715407,ks,1994,False
+category_crypto___alts_defi_stablecoins,subject,Crypto — Alts/DeFi/stablecoins,120,1.9472736819807293,130.0,0.03629361794138636,11125,883,10242,ks,234,False
+category_crypto___alts_defi_stablecoins,subject,Crypto — Alts/DeFi/stablecoins,500,1.949374980214583,129.9936,0.03522071277103611,11125,885,10240,ks,937,False
+category_crypto___alts_defi_stablecoins,subject,Crypto — Alts/DeFi/stablecoins,500,1.491838199212814,2.9898,1.9999999999999996,11125,6905,4220,reweighted_ks,937,False
+category_crypto___alts_defi_stablecoins,subject,Crypto — Alts/DeFi/stablecoins,500,1.949374980214583,129.9936,0.05550627240274919,11125,885,10240,kuiper,937,False
+category_crypto___alts_defi_stablecoins,subject,Crypto — Alts/DeFi/stablecoins,1000,1.952561515879848,132.02644,0.035480021525325256,11125,875,10250,ks,1730,False
+category_crypto___intraday_price,subject,Crypto — Intraday price,120,2.316665966020455,14.4,0.011482892161192693,200000,18664,181336,ks,234,False
+category_crypto___intraday_price,subject,Crypto — Intraday price,500,2.316665966020455,14.4,0.011482892161192693,200000,18664,181336,ks,894,False
+category_crypto___intraday_price,subject,Crypto — Intraday price,500,1.9442594883444086,2.232352,1.9999999999999996,200000,113069,86931,reweighted_ks,894,False
+category_crypto___intraday_price,subject,Crypto — Intraday price,500,2.310921815335991,19.9089,0.020648320762102795,200000,12118,187882,kuiper,894,False
+category_crypto___intraday_price,subject,Crypto — Intraday price,1000,2.316665966020455,14.4,0.011482892161192693,200000,18664,181336,ks,1651,False
+category_crypto___majors,subject,Crypto — Majors,120,1.8774495450874888,79.261725,0.030633177829989866,156290,21630,134660,ks,238,False
+category_crypto___majors,subject,Crypto — Majors,500,1.8818619948242483,80.75,0.030539361554903666,156290,21386,134904,ks,969,False
+category_crypto___majors,subject,Crypto — Majors,500,1.2919976631360264,0.35735,1.9999999999999996,156290,125302,30988,reweighted_ks,969,False
+category_crypto___majors,subject,Crypto — Majors,500,1.940382892522543,179.9199,0.05356818860902557,156290,11174,145116,kuiper,969,False
+category_crypto___majors,subject,Crypto — Majors,1000,1.8802618930305561,79.79,0.030356249190518936,156290,21573,134717,ks,1874,False
+category_culture___entertainment_awards,subject,Culture — Entertainment/awards,120,1.8893225423866244,98.3,0.03857007629671054,48324,2531,45793,ks,238,False
+category_culture___entertainment_awards,subject,Culture — Entertainment/awards,500,1.8870567807978764,98.5,0.03822223730984653,48324,2520,45804,ks,953,False
+category_culture___entertainment_awards,subject,Culture — Entertainment/awards,500,1.424198838086225,0.9009,1.9999999999999996,48324,29444,18880,reweighted_ks,953,False
+category_culture___entertainment_awards,subject,Culture — Entertainment/awards,500,1.8192099578772933,27.5908,0.05224113410430342,48324,7086,41238,kuiper,953,False
+category_culture___entertainment_awards,subject,Culture — Entertainment/awards,1000,1.8883677813057465,98.4,0.03762732625667886,48324,2526,45798,ks,1817,False
+category_economy___macro,subject,Economy — Macro,120,1.7823996931479495,78.0,0.030750033967522294,38895,4508,34387,ks,235,False
+category_economy___macro,subject,Economy — Macro,500,1.7827546525043858,77.67071,0.030559257467780432,38895,4525,34370,ks,970,False
+category_economy___macro,subject,Economy — Macro,500,1.2697598972341182,0.181233,1.9999999999999996,38895,31120,7775,reweighted_ks,970,False
+category_economy___macro,subject,Economy — Macro,500,1.7683028265920815,72.48,0.05141527053626482,38895,4686,34209,kuiper,970,False
+category_economy___macro,subject,Economy — Macro,1000,1.783194430110129,78.54626,0.03071389265368374,38895,4488,34407,ks,1861,False
+category_finance___commodities,subject,Finance — Commodities,120,1.9909257508474516,136.95,0.03498526475968078,12623,898,11725,ks,234,False
+category_finance___commodities,subject,Finance — Commodities,500,1.965698450824354,75.8725,0.02986160726665582,12623,1554,11069,ks,932,False
+category_finance___commodities,subject,Finance — Commodities,500,1.5394721036641408,3.654,1.9999999999999996,12623,7405,5218,reweighted_ks,932,False
+category_finance___commodities,subject,Finance — Commodities,500,1.9918579726510264,133.62624,0.05530603018507954,12623,921,11702,kuiper,932,False
+category_finance___commodities,subject,Finance — Commodities,1000,1.965698450824354,75.8725,0.02986160726665582,12623,1554,11069,ks,1726,False
+category_finance___stocks_technology,subject,Finance — Stocks/technology,120,1.9798396807140908,138.999,0.03247637846071311,44622,1956,42666,ks,235,False
+category_finance___stocks_technology,subject,Finance — Stocks/technology,500,1.9906453761395069,142.7029,0.029730631743960234,44622,1927,42695,ks,933,False
+category_finance___stocks_technology,subject,Finance — Stocks/technology,500,1.355318121881739,0.497641,1.9999999999999996,44622,30257,14365,reweighted_ks,933,False
+category_finance___stocks_technology,subject,Finance — Stocks/technology,500,1.9643938015928724,117.84,0.05201978966185411,44622,2259,42363,kuiper,933,False
+category_finance___stocks_technology,subject,Finance — Stocks/technology,1000,1.9888871478802295,142.0,0.02879642125990617,44622,1933,42689,ks,1773,False
+category_meta___mentions_trending,subject,Meta — Mentions/trending,120,1.9679254063837859,103.8,0.02569270969221915,88044,3231,84813,ks,235,False
+category_meta___mentions_trending,subject,Meta — Mentions/trending,500,1.9668086128563704,100.485,0.02481929233746838,88044,3330,84714,ks,934,False
+category_meta___mentions_trending,subject,Meta — Mentions/trending,500,1.4724322513546002,1.251,1.9999999999999996,88044,53853,34191,reweighted_ks,934,False
+category_meta___mentions_trending,subject,Meta — Mentions/trending,500,1.9668086128563704,100.485,0.03675103572847149,88044,3330,84714,kuiper,934,False
+category_meta___mentions_trending,subject,Meta — Mentions/trending,1000,1.966690785817715,100.13,0.02472447807065814,88044,3341,84703,ks,1780,False
+category_other,subject,Other,120,1.7160005840455295,148.0,0.045209924918226674,2826,334,2492,ks,231,False
+category_other,subject,Other,500,1.685069337289169,96.922,0.044409878422825205,2826,426,2400,ks,851,False
+category_other,subject,Other,500,1.360437907050597,1.813471,1.9999999999999996,2826,1955,871,reweighted_ks,851,False
+category_other,subject,Other,500,1.6913144145812338,128.44,0.07222241802256585,2826,356,2470,kuiper,851,False
+category_other,subject,Other,1000,1.685069337289169,96.922,0.044409878422825205,2826,426,2400,ks,1339,False
+category_politics___other_global,subject,Politics — Other/global,120,1.8019920611595586,83.2,0.02996070482735591,177922,22330,155592,ks,238,False
+category_politics___other_global,subject,Politics — Other/global,500,1.804961251675596,84.0,0.029207378372931192,177922,22241,155681,ks,972,False
+category_politics___other_global,subject,Politics — Other/global,500,1.4416565579432437,2.3797,1.9999999999999996,177922,108788,69134,reweighted_ks,972,False
+category_politics___other_global,subject,Politics — Other/global,500,1.786783715891464,72.901333,0.046178469564069013,177922,24332,153590,kuiper,972,False
+category_politics___other_global,subject,Politics — Other/global,1000,1.8053495054031443,85.0,0.02934774564243403,177922,22041,155881,ks,1877,False
+category_politics___us_federal,subject,Politics — US federal,120,2.3300925299153965,3850.02566,0.028942883472334924,135603,579,135024,ks,237,False
+category_politics___us_federal,subject,Politics — US federal,500,2.3174323064992595,3445.2415,0.028807141759488175,135603,664,134939,ks,984,False
+category_politics___us_federal,subject,Politics — US federal,500,1.1748229957325882,0.01703,1.9999999999999996,135603,129848,5755,reweighted_ks,984,False
+category_politics___us_federal,subject,Politics — US federal,500,2.190766065342999,1669.91518,0.04239632085404266,135603,1470,134133,kuiper,984,False
+category_politics___us_federal,subject,Politics — US federal,1000,2.321357697039688,3441.237599,0.027547409262432876,135603,667,134936,ks,1929,False
+category_politics___us_state_local,subject,Politics — US state/local,120,2.0115490160770477,413.5,0.03509929714781157,7788,347,7441,ks,235,False
+category_politics___us_state_local,subject,Politics — US state/local,500,2.0225140513356035,423.969333,0.03429358646886771,7788,342,7446,ks,925,False
+category_politics___us_state_local,subject,Politics — US state/local,500,1.2042188565119116,0.04092,1.9999999999999996,7788,6848,940,reweighted_ks,925,False
+category_politics___us_state_local,subject,Politics — US state/local,500,1.990359438447883,386.868535,0.053123191896012445,7788,363,7425,kuiper,925,False
+category_politics___us_state_local,subject,Politics — US state/local,1000,2.019803544666487,424.08324,0.034716690774220904,7788,341,7447,ks,1708,False
+category_sports___baseball,subject,Sports — Baseball,120,1.9519824197243176,387.2421,0.026415742150684096,52840,1911,50929,ks,237,False
+category_sports___baseball,subject,Sports — Baseball,500,1.9437321888240113,367.832277,0.024632634373209547,52840,1989,50851,ks,949,False
+category_sports___baseball,subject,Sports — Baseball,500,1.737232345479611,54.516,1.9999999999999996,52840,7709,45131,reweighted_ks,949,False
+category_sports___baseball,subject,Sports — Baseball,500,1.9437321888240113,367.832277,0.039295680193586244,52840,1989,50851,kuiper,949,False
+category_sports___baseball,subject,Sports — Baseball,1000,1.9441142779833873,369.17,0.024568351912426456,52840,1983,50857,ks,1803,False
+category_sports___basketball,subject,Sports — Basketball,120,2.1450844946553325,760.0,0.02122075131380302,158153,3406,154747,ks,237,False
+category_sports___basketball,subject,Sports — Basketball,500,2.143694954217703,749.58,0.020441339345790732,158153,3456,154697,ks,968,False
+category_sports___basketball,subject,Sports — Basketball,500,1.4433920298839722,2.152828,1.9999999999999996,158153,103673,54480,reweighted_ks,968,False
+category_sports___basketball,subject,Sports — Basketball,500,2.1244716600911215,1001.878,0.03604781154162118,158153,2425,155728,kuiper,968,False
+category_sports___basketball,subject,Sports — Basketball,1000,2.144688255427302,756.6678,0.020987713170940225,158153,3422,154731,ks,1870,False
+category_sports___esports,subject,Sports — Esports,120,2.2380405973157087,752.31693,0.026982881343691145,139276,2513,136763,ks,236,False
+category_sports___esports,subject,Sports — Esports,500,2.2393441260096134,687.59172,0.023711750565250322,139276,2812,136464,ks,949,False
+category_sports___esports,subject,Sports — Esports,500,1.9808448169091821,147.2175,1.9999999999999996,139276,12351,126925,reweighted_ks,949,False
+category_sports___esports,subject,Sports — Esports,500,2.1492860020816904,367.072498,0.03634644620192268,139276,5481,133795,kuiper,949,False
+category_sports___esports,subject,Sports — Esports,1000,2.2398918700294344,689.6175,0.02361552002270001,139276,2803,136473,ks,1802,False
+category_sports___hockey,subject,Sports — Hockey,120,1.9935876993501842,239.76,0.027156245843541427,34551,1813,32738,ks,234,False
+category_sports___hockey,subject,Sports — Hockey,500,2.001546075302427,260.0,0.02724820751748841,34551,1686,32865,ks,958,False
+category_sports___hockey,subject,Sports — Hockey,500,1.2766507941553684,0.223059,1.9999999999999996,34551,30891,3660,reweighted_ks,958,False
+category_sports___hockey,subject,Sports — Hockey,500,1.9829468375745662,224.0,0.05084351166173001,34551,1918,32633,kuiper,958,False
+category_sports___hockey,subject,Sports — Hockey,1000,2.0003423139463,254.9949,0.027063710773391425,34551,1717,32834,ks,1837,False
+category_sports___nfl_cfb,subject,Sports — NFL/CFB,120,1.7702156895971368,138.0,0.02842232007688772,42864,3537,39327,ks,236,False
+category_sports___nfl_cfb,subject,Sports — NFL/CFB,500,1.7703728460397377,137.18,0.02827680634487273,42864,3554,39310,ks,950,False
+category_sports___nfl_cfb,subject,Sports — NFL/CFB,500,1.3450153054405396,0.686414,1.9999999999999996,42864,30266,12598,reweighted_ks,950,False
+category_sports___nfl_cfb,subject,Sports — NFL/CFB,500,1.7703728460397377,137.18,0.046736999140705726,42864,3554,39310,kuiper,950,False
+category_sports___nfl_cfb,subject,Sports — NFL/CFB,1000,1.7685573016387823,136.31142,0.028311353201001643,42864,3563,39301,ks,1833,False
+category_sports___other,subject,Sports — Other,120,1.8155930163248324,71.153846,0.030662169285906593,45880,4758,41122,ks,232,False
+category_sports___other,subject,Sports — Other,500,1.8121307162482043,69.188292,0.030561011534666727,45880,4847,41033,ks,951,False
+category_sports___other,subject,Sports — Other,500,1.447023547525315,1.8135,1.9999999999999996,45880,26613,19267,reweighted_ks,951,False
+category_sports___other,subject,Sports — Other,500,1.8121307162482043,69.188292,0.045297387003021994,45880,4847,41033,kuiper,951,False
+category_sports___other,subject,Sports — Other,1000,1.8136042314873393,69.67875,0.030462169557773644,45880,4828,41052,ks,1795,False
+category_sports___soccer,subject,Sports — Soccer,120,2.089417928571099,664.666666,0.021168371620450155,200000,4064,195936,ks,236,False
+category_sports___soccer,subject,Sports — Soccer,500,2.0900956757957054,648.83,0.020613154960699265,200000,4175,195825,ks,960,False
+category_sports___soccer,subject,Sports — Soccer,500,1.4905675666695577,2.9928,1.9999999999999996,200000,113069,86931,reweighted_ks,960,False
+category_sports___soccer,subject,Sports — Soccer,500,2.0520000934843425,445.16129,0.03353962334438704,200000,6019,193981,kuiper,960,False
+category_sports___soccer,subject,Sports — Soccer,1000,2.0926081872254922,652.3482,0.02077917302548371,200000,4160,195840,ks,1882,False
+category_sports___tennis,subject,Sports — Tennis,120,2.4278212783839717,1739.12913,0.030566403602801162,94438,562,93876,ks,235,False
+category_sports___tennis,subject,Sports — Tennis,500,2.423434300359371,1733.2113000000002,0.030843431326323834,94438,563,93875,ks,932,False
+category_sports___tennis,subject,Sports — Tennis,500,1.5442397473078497,2.926,1.9999999999999996,94438,58328,36110,reweighted_ks,932,False
+category_sports___tennis,subject,Sports — Tennis,500,2.194274310299004,656.4863,0.04958014070730765,94438,1623,92815,kuiper,932,False
+category_sports___tennis,subject,Sports — Tennis,1000,2.4278212783839717,1739.12913,0.030566403602801162,94438,562,93876,ks,1769,False
+category_weather_and_climate,subject,Weather and climate,120,1.9674448506241315,16.797,0.02777730213076346,167753,15597,152156,ks,228,False
+category_weather_and_climate,subject,Weather and climate,500,1.9563688609347447,14.73048,0.026118314902094514,167753,17474,150279,ks,893,False
+category_weather_and_climate,subject,Weather and climate,500,1.3314883497764043,0.136804,1.9999999999999996,167753,129115,38638,reweighted_ks,893,False
+category_weather_and_climate,subject,Weather and climate,500,1.9499313980213606,14.175,0.03894779487353728,167753,18004,149749,kuiper,893,False
+category_weather_and_climate,subject,Weather and climate,1000,1.9568802143697486,14.7,0.025733995594831555,167753,17518,150235,ks,1669,False
+cohort_fed_chair_wallet_amount,event_cohort,fed_chair: wallet amount,120,1.5906358968319896,40.537652,0.037455648565139166,21786,3904,17882,ks,230,False
+cohort_fed_chair_wallet_amount,event_cohort,fed_chair: wallet amount,500,1.5947934754182183,39.924699000000004,0.03544869178550891,21786,3967,17819,ks,913,False
+cohort_fed_chair_wallet_amount,event_cohort,fed_chair: wallet amount,500,1.3836981176442706,1.0332000000000001,1.9999999999999996,21786,15180,6606,reweighted_ks,913,False
+cohort_fed_chair_wallet_amount,event_cohort,fed_chair: wallet amount,500,1.5947934754182183,39.924699000000004,0.051034693924607355,21786,3967,17819,kuiper,913,False
+cohort_fed_chair_wallet_amount,event_cohort,fed_chair: wallet amount,1000,1.5934984956886735,39.476593,0.035296834471355565,21786,3985,17801,ks,1733,False
+cohort_fed_chair_wallet_subject_amount,event_cohort,fed_chair: wallet-subject amount,120,2.1607883470177227,238006.22679099982,0.03368238217359598,95922,399,95523,ks,238,False
+cohort_fed_chair_wallet_subject_amount,event_cohort,fed_chair: wallet-subject amount,500,2.1551274358453494,233469.73443999997,0.03329859002988256,95922,406,95516,ks,995,False
+cohort_fed_chair_wallet_subject_amount,event_cohort,fed_chair: wallet-subject amount,500,1.4289878958733153,39.200174999999994,1.9999999999999996,95922,64429,31493,reweighted_ks,995,False
+cohort_fed_chair_wallet_subject_amount,event_cohort,fed_chair: wallet-subject amount,500,2.1551274358453494,233469.73443999997,0.05206253124545357,95922,406,95516,kuiper,995,False
+cohort_fed_chair_wallet_subject_amount,event_cohort,fed_chair: wallet-subject amount,1000,2.1551274358453494,233469.73443999997,0.03329859002988256,95922,406,95516,ks,1977,False
+cohort_fed_rate_wallet_amount,event_cohort,fed_rate: wallet amount,120,1.7310018693381712,212.942298,0.04197714509601991,11369,762,10607,ks,216,False
+cohort_fed_rate_wallet_amount,event_cohort,fed_rate: wallet amount,500,1.7293788642189685,206.70000000000002,0.041078319330286384,11369,777,10592,ks,812,False
+cohort_fed_rate_wallet_amount,event_cohort,fed_rate: wallet amount,500,1.389961595595281,1.53072,1.9999999999999996,11369,7642,3727,reweighted_ks,812,False
+cohort_fed_rate_wallet_amount,event_cohort,fed_rate: wallet amount,500,1.7134373092247233,220.05264,0.06496456939762552,11369,726,10643,kuiper,812,False
+cohort_fed_rate_wallet_amount,event_cohort,fed_rate: wallet amount,1000,1.7317379539074338,206.1609,0.04101325810521961,11369,781,10588,ks,1471,False
+cohort_fed_rate_wallet_subject_amount,event_cohort,fed_rate: wallet-subject amount,120,1.5584701167435069,282.87929299999996,0.020167534837572942,36558,11435,25123,ks,237,False
+cohort_fed_rate_wallet_subject_amount,event_cohort,fed_rate: wallet-subject amount,500,1.5566795743892756,275.393877,0.019671899364417433,36558,11570,24988,ks,993,False
+cohort_fed_rate_wallet_subject_amount,event_cohort,fed_rate: wallet-subject amount,500,1.2354451079858104,2.000997,1.9999999999999996,36558,32028,4530,reweighted_ks,993,False
+cohort_fed_rate_wallet_subject_amount,event_cohort,fed_rate: wallet-subject amount,500,1.5573850028254572,280.311019,0.03888071766311446,36558,11471,25087,kuiper,993,False
+cohort_fed_rate_wallet_subject_amount,event_cohort,fed_rate: wallet-subject amount,1000,1.55688765419188,276.05,0.019672463106882088,36558,11559,24999,ks,1935,False
+cohort_inauguration_wallet_amount,event_cohort,inauguration: wallet amount,120,1.949620376039763,6663.4125699999995,0.06960666445725627,35325,326,34999,ks,229,False
+cohort_inauguration_wallet_amount,event_cohort,inauguration: wallet amount,500,1.9556208644861055,6601.245494000001,0.0688840364244031,35325,331,34994,ks,917,False
+cohort_inauguration_wallet_amount,event_cohort,inauguration: wallet amount,500,1.2454446335586349,2.07502,1.9999999999999996,35325,31301,4024,reweighted_ks,917,False
+cohort_inauguration_wallet_amount,event_cohort,inauguration: wallet amount,500,1.9176338291866573,7174.95759,0.1225322837270815,35325,294,35031,kuiper,917,False
+cohort_inauguration_wallet_amount,event_cohort,inauguration: wallet amount,1000,1.9556208644861055,6601.245494000001,0.0688840364244031,35325,331,34994,ks,1775,False
+cohort_inauguration_wallet_subject_amount,event_cohort,inauguration: wallet-subject amount,120,1.875181666868286,41154.18518799999,0.04710962897965454,46318,382,45936,ks,237,False
+cohort_inauguration_wallet_subject_amount,event_cohort,inauguration: wallet-subject amount,500,1.8462475919704395,37949.41307,0.04402830661664914,46318,396,45922,ks,992,False
+cohort_inauguration_wallet_subject_amount,event_cohort,inauguration: wallet-subject amount,500,1.31662511638139,0.8092779999999999,1.9999999999999996,46318,32239,14079,reweighted_ks,992,False
+cohort_inauguration_wallet_subject_amount,event_cohort,inauguration: wallet-subject amount,500,1.8462475919704395,37949.41307,0.06039631189120409,46318,396,45922,kuiper,992,False
+cohort_inauguration_wallet_subject_amount,event_cohort,inauguration: wallet-subject amount,1000,2.0504112573264126,141922.67178900007,0.04384707578659108,46318,147,46171,ks,1939,False
+cohort_iran_strike_wallet_amount,event_cohort,iran_strike: wallet amount,120,1.8656174862363621,347.2,0.050741490125830346,2071,284,1787,ks,213,False
+cohort_iran_strike_wallet_amount,event_cohort,iran_strike: wallet amount,500,1.8656174862363621,347.2,0.050741490125830346,2071,284,1787,ks,743,False
+cohort_iran_strike_wallet_amount,event_cohort,iran_strike: wallet amount,500,1.27280208679846,0.7832,1.9999999999999996,2071,2045,26,reweighted_ks,743,False
+cohort_iran_strike_wallet_amount,event_cohort,iran_strike: wallet amount,500,1.8424488343779593,264.0,0.08128293465428932,2071,348,1723,kuiper,743,False
+cohort_iran_strike_wallet_amount,event_cohort,iran_strike: wallet amount,1000,1.8667195764734994,344.897,0.05017190107472641,2071,286,1785,ks,1151,False
+cohort_iran_strike_wallet_subject_amount,event_cohort,iran_strike: wallet-subject amount,120,1.9492748663214914,72054.039065,0.05366423311989016,9442,366,9076,ks,237,False
+cohort_iran_strike_wallet_subject_amount,event_cohort,iran_strike: wallet-subject amount,500,1.9601789735322972,74640.84505999999,0.050307020510272304,9442,358,9084,ks,972,False
+cohort_iran_strike_wallet_subject_amount,event_cohort,iran_strike: wallet-subject amount,500,1.253468719300727,10.69074,1.9999999999999996,9442,7906,1536,reweighted_ks,972,False
+cohort_iran_strike_wallet_subject_amount,event_cohort,iran_strike: wallet-subject amount,500,1.9601789735322972,74640.84505999999,0.07948140794669561,9442,358,9084,kuiper,972,False
+cohort_iran_strike_wallet_subject_amount,event_cohort,iran_strike: wallet-subject amount,1000,1.9608647942920783,75134.1946869999,0.05029798394009771,9442,356,9086,ks,1823,False
+cohort_nba_wallet_amount,event_cohort,nba: wallet amount,120,1.6583754120112546,99.55196999999998,0.03869914418705095,8965,621,8344,ks,236,False
+cohort_nba_wallet_amount,event_cohort,nba: wallet amount,500,1.6581952698560354,99.999998,0.038942046468086355,8965,619,8346,ks,932,False
+cohort_nba_wallet_amount,event_cohort,nba: wallet amount,500,1.4038785604198156,0.6324,1.9999999999999996,8965,7974,991,reweighted_ks,932,False
+cohort_nba_wallet_amount,event_cohort,nba: wallet amount,500,1.6693416557710838,149.999999,0.058538175564731953,8965,484,8481,kuiper,932,False
+cohort_nba_wallet_amount,event_cohort,nba: wallet amount,1000,1.6583754120112546,99.55196999999998,0.03869914418705095,8965,621,8344,ks,1731,False
+cohort_nba_wallet_subject_amount,event_cohort,nba: wallet-subject amount,120,1.2962890908845786,4.953703,0.04973888720910513,14323,10617,3706,ks,238,False
+cohort_nba_wallet_subject_amount,event_cohort,nba: wallet-subject amount,500,1.295269237394882,4.803921,0.04941215709251345,14323,10677,3646,ks,981,False
+cohort_nba_wallet_subject_amount,event_cohort,nba: wallet-subject amount,500,1.17828336939986,0.206,1.9999999999999996,14323,13496,827,reweighted_ks,981,False
+cohort_nba_wallet_subject_amount,event_cohort,nba: wallet-subject amount,500,1.773694812258536,26072.352503000002,0.07870495344682771,14323,593,13730,kuiper,981,False
+cohort_nba_wallet_subject_amount,event_cohort,nba: wallet-subject amount,1000,1.2952257132947256,4.8,0.049405402161134426,14323,10678,3645,ks,1870,False
+cohort_popular_vote_wallet_amount,event_cohort,popular_vote: wallet amount,120,1.9281448801577192,661.0847900000001,0.030330364903674023,17666,384,17282,ks,235,False
+cohort_popular_vote_wallet_amount,event_cohort,popular_vote: wallet amount,500,1.9281448801577192,661.0847900000001,0.030330364903674023,17666,384,17282,ks,924,False
+cohort_popular_vote_wallet_amount,event_cohort,popular_vote: wallet amount,500,1.2816959314607466,0.10898,1.9999999999999996,17666,16222,1444,reweighted_ks,924,False
+cohort_popular_vote_wallet_amount,event_cohort,popular_vote: wallet amount,500,1.8169962468732943,146.4,0.046475042841329056,17666,1217,16449,kuiper,924,False
+cohort_popular_vote_wallet_amount,event_cohort,popular_vote: wallet amount,1000,1.9275020617599257,664.32,0.030296751999295934,17666,382,17284,ks,1711,False
+cohort_popular_vote_wallet_subject_amount,event_cohort,popular_vote: wallet-subject amount,120,1.5574770506524365,6826.518265,0.03187834547776913,31100,835,30265,ks,237,False
+cohort_popular_vote_wallet_subject_amount,event_cohort,popular_vote: wallet-subject amount,500,1.557701280939528,6687.147184999993,0.03152878112141677,31100,845,30255,ks,988,False
+cohort_popular_vote_wallet_subject_amount,event_cohort,popular_vote: wallet-subject amount,500,1.14611533986311,0.00804,1.9999999999999996,31100,30106,994,reweighted_ks,988,False
+cohort_popular_vote_wallet_subject_amount,event_cohort,popular_vote: wallet-subject amount,500,1.5428749941852178,8125.233245999999,0.051541939823073535,31100,739,30361,kuiper,988,False
+cohort_popular_vote_wallet_subject_amount,event_cohort,popular_vote: wallet-subject amount,1000,1.5576546441910142,6786.595184000001,0.03178693671999189,31100,838,30262,ks,1926,False
+cohort_presidential_wallet_amount,event_cohort,presidential: wallet amount,120,1.4441435233333508,43.54587,0.019189160658191762,11521,5858,5663,ks,238,False
+cohort_presidential_wallet_amount,event_cohort,presidential: wallet amount,500,1.4432564245167774,42.771428,0.01891702195268624,11521,5893,5628,ks,971,False
+cohort_presidential_wallet_amount,event_cohort,presidential: wallet amount,500,1.305226279836244,6.328302999999999,1.9999999999999996,11521,8180,3341,reweighted_ks,971,False
+cohort_presidential_wallet_amount,event_cohort,presidential: wallet amount,500,1.4432564245167774,42.771428,0.036179074598818806,11521,5893,5628,kuiper,971,False
+cohort_presidential_wallet_amount,event_cohort,presidential: wallet amount,1000,1.4432564245167774,42.771428,0.01891702195268624,11521,5893,5628,ks,1860,False
+cohort_presidential_wallet_subject_amount,event_cohort,presidential: wallet-subject amount,120,1.4110578138990029,45.800000000000004,0.02926900784981712,27607,9808,17799,ks,238,False
+cohort_presidential_wallet_subject_amount,event_cohort,presidential: wallet-subject amount,500,1.410972358531393,44.617277,0.02893817665305287,27607,9912,17695,ks,986,False
+cohort_presidential_wallet_subject_amount,event_cohort,presidential: wallet-subject amount,500,1.3026724815452044,5.118889,1.9999999999999996,27607,15719,11888,reweighted_ks,986,False
+cohort_presidential_wallet_subject_amount,event_cohort,presidential: wallet-subject amount,500,1.410972358531393,44.617277,0.044423872845521184,27607,9912,17695,kuiper,986,False
+cohort_presidential_wallet_subject_amount,event_cohort,presidential: wallet-subject amount,1000,1.4102823574220413,44.25,0.028699147832805916,27607,9929,17678,ks,1907,False
+leaderboard_pnl,global,PnL leaderboard reported profit,120,2.322032140709142,792886.5526581662,0.03421565908781399,1000,257,743,ks,901,True
+leaderboard_pnl,global,PnL leaderboard reported profit,500,2.322032140709142,792886.5526581662,0.03421565908781399,1000,257,743,ks,901,True
+leaderboard_pnl,global,PnL leaderboard reported profit,500,2.105763113987243,227065.9159978858,1.9999999999999996,1000,956,44,reweighted_ks,901,True
+leaderboard_pnl,global,PnL leaderboard reported profit,500,2.1242616403543537,240894.9826402171,0.05079872072337144,1000,910,90,kuiper,901,True
+leaderboard_pnl,global,PnL leaderboard reported profit,1000,2.322032140709142,792886.5526581662,0.03421565908781399,1000,257,743,ks,901,True
+leaderboard_volume,global,Volume leaderboard reported volume,120,2.3624460520079618,42551673.446243,0.028729296053051967,1000,560,440,ks,901,True
+leaderboard_volume,global,Volume leaderboard reported volume,500,2.3624460520079618,42551673.446243,0.028729296053051967,1000,560,440,ks,901,True
+leaderboard_volume,global,Volume leaderboard reported volume,500,2.2855774744286714,26922393.542743,1.9999999999999996,1000,956,44,reweighted_ks,901,True
+leaderboard_volume,global,Volume leaderboard reported volume,500,2.3632862313939293,42515200.19948501,0.04595426604485531,1000,561,439,kuiper,901,True
+leaderboard_volume,global,Volume leaderboard reported volume,1000,2.3624460520079618,42551673.446243,0.028729296053051967,1000,560,440,ks,901,True
+profit_union_negative_absolute,profit_overlay,Selected leaderboard union: absolute reported loss,120,1.9615413938415014,499670.8249628136,0.09739843232822853,245,103,142,ks,146,True
+profit_union_negative_absolute,profit_overlay,Selected leaderboard union: absolute reported loss,500,1.9615413938415014,499670.8249628136,0.09739843232822853,245,103,142,ks,146,True
+profit_union_negative_absolute,profit_overlay,Selected leaderboard union: absolute reported loss,500,1.1555346043819643,358.5722985463031,1.9999999999999996,245,239,6,reweighted_ks,146,True
+profit_union_negative_absolute,profit_overlay,Selected leaderboard union: absolute reported loss,500,1.9937550426540485,533063.377704091,0.14851755617347845,245,100,145,kuiper,146,True
+profit_union_negative_absolute,profit_overlay,Selected leaderboard union: absolute reported loss,1000,1.9615413938415014,499670.8249628136,0.09739843232822853,245,103,142,ks,146,True
+profit_union_positive,profit_overlay,Selected leaderboard union: positive reported PnL,120,2.314068945060902,781447.3456381904,0.03465655656252897,1334,256,1078,ks,1235,True
+profit_union_positive,profit_overlay,Selected leaderboard union: positive reported PnL,500,2.314068945060902,781447.3456381904,0.03465655656252897,1334,256,1078,ks,1235,True
+profit_union_positive,profit_overlay,Selected leaderboard union: positive reported PnL,500,1.960263910091097,183516.84059447204,1.9999999999999996,1334,1019,315,reweighted_ks,1235,True
+profit_union_positive,profit_overlay,Selected leaderboard union: positive reported PnL,500,2.123231901449562,240894.9826402171,0.05068863850587968,1334,894,440,kuiper,1235,True
+profit_union_positive,profit_overlay,Selected leaderboard union: positive reported PnL,1000,2.314068945060902,781447.3456381904,0.03465655656252897,1334,256,1078,ks,1235,True
+quarter_2023q1,quarter,Event volumes 2023Q1,120,1.499278731559087,1015.915994,0.1154850737872457,252,163,89,ks,153,True
+quarter_2023q1,quarter,Event volumes 2023Q1,500,1.499278731559087,1015.915994,0.1154850737872457,252,163,89,ks,153,True
+quarter_2023q1,quarter,Event volumes 2023Q1,500,1.1816490205081185,9.009891,1.9999999999999996,252,239,13,reweighted_ks,153,True
+quarter_2023q1,quarter,Event volumes 2023Q1,500,1.5557855749798573,1546.1666870000001,0.1680339677266931,252,146,106,kuiper,153,True
+quarter_2023q1,quarter,Event volumes 2023Q1,1000,1.499278731559087,1015.915994,0.1154850737872457,252,163,89,ks,153,True
+quarter_2023q2,quarter,Event volumes 2023Q2,120,1.7694114658987352,6694.6559640000005,0.04825594875554351,337,108,229,ks,233,True
+quarter_2023q2,quarter,Event volumes 2023Q2,500,1.7694114658987352,6694.6559640000005,0.04825594875554351,337,108,229,ks,233,True
+quarter_2023q2,quarter,Event volumes 2023Q2,500,1.483043667096222,875.1891659999999,1.9999999999999996,337,239,98,reweighted_ks,233,True
+quarter_2023q2,quarter,Event volumes 2023Q2,500,1.7694114658987352,6694.6559640000005,0.08183274309808286,337,108,229,kuiper,233,True
+quarter_2023q2,quarter,Event volumes 2023Q2,1000,1.7694114658987352,6694.6559640000005,0.04825594875554351,337,108,229,ks,233,True
+quarter_2023q3,quarter,Event volumes 2023Q3,120,1.5739075098073143,2723.210773,0.10509636518478571,358,184,174,ks,259,True
+quarter_2023q3,quarter,Event volumes 2023Q3,500,1.5739075098073143,2723.210773,0.10509636518478571,358,184,174,ks,259,True
+quarter_2023q3,quarter,Event volumes 2023Q3,500,1.4451753088230714,970.706474,1.9999999999999996,358,239,119,reweighted_ks,259,True
+quarter_2023q3,quarter,Event volumes 2023Q3,500,1.641017914882159,3776.4711150000003,0.16342305577052058,358,169,189,kuiper,259,True
+quarter_2023q3,quarter,Event volumes 2023Q3,1000,1.5739075098073143,2723.210773,0.10509636518478571,358,184,174,ks,259,True
+quarter_2023q4,quarter,Event volumes 2023Q4,120,1.915194303574825,12413.937063,0.05071750513613729,557,148,409,ks,458,True
+quarter_2023q4,quarter,Event volumes 2023Q4,500,1.915194303574825,12413.937063,0.05071750513613729,557,148,409,ks,458,True
+quarter_2023q4,quarter,Event volumes 2023Q4,500,1.2685996999987041,116.693888,1.9999999999999996,557,478,79,reweighted_ks,458,True
+quarter_2023q4,quarter,Event volumes 2023Q4,500,1.915194303574825,12413.937063,0.0858781356307178,557,148,409,kuiper,458,True
+quarter_2023q4,quarter,Event volumes 2023Q4,1000,1.915194303574825,12413.937063,0.05071750513613729,557,148,409,ks,458,True
+quarter_2024q1,quarter,Event volumes 2024Q1,120,1.809876252014917,74722.95658299999,0.05380290056787895,754,101,653,ks,653,True
+quarter_2024q1,quarter,Event volumes 2024Q1,500,1.809876252014917,74722.95658299999,0.05380290056787895,754,101,653,ks,653,True
+quarter_2024q1,quarter,Event volumes 2024Q1,500,1.5045591151522513,4076.8759179999997,1.9999999999999996,754,478,276,reweighted_ks,653,True
+quarter_2024q1,quarter,Event volumes 2024Q1,500,1.7940983717514247,72008.622003,0.08271811473263382,754,102,652,kuiper,653,True
+quarter_2024q1,quarter,Event volumes 2024Q1,1000,1.809876252014917,74722.95658299999,0.05380290056787895,754,101,653,ks,653,True
+quarter_2024q2,quarter,Event volumes 2024Q2,120,1.9418886840477674,51174.444101999994,0.03415700670896027,1218,201,1017,ks,1119,True
+quarter_2024q2,quarter,Event volumes 2024Q2,500,1.9418886840477674,51174.444101999994,0.03415700670896027,1218,201,1017,ks,1119,True
+quarter_2024q2,quarter,Event volumes 2024Q2,500,1.3811656384265976,1040.979456,1.9999999999999996,1218,1019,199,reweighted_ks,1119,True
+quarter_2024q2,quarter,Event volumes 2024Q2,500,1.9418886840477674,51174.444101999994,0.0568419881839487,1218,201,1017,kuiper,1119,True
+quarter_2024q2,quarter,Event volumes 2024Q2,1000,1.9418886840477674,51174.444101999994,0.03415700670896027,1218,201,1017,ks,1119,True
+quarter_2024q3,quarter,Event volumes 2024Q3,120,1.855864476776099,139315.60627199995,0.03311767918729719,1884,360,1524,ks,1784,True
+quarter_2024q3,quarter,Event volumes 2024Q3,500,1.855864476776099,139315.60627199995,0.03311767918729719,1884,360,1524,ks,1784,True
+quarter_2024q3,quarter,Event volumes 2024Q3,500,1.075693680029323,0.041666,1.9999999999999996,1884,1883,1,reweighted_ks,1784,True
+quarter_2024q3,quarter,Event volumes 2024Q3,500,1.855864476776099,139315.60627199995,0.05819796158440288,1884,360,1524,kuiper,1784,True
+quarter_2024q3,quarter,Event volumes 2024Q3,1000,1.855864476776099,139315.60627199995,0.03311767918729719,1884,360,1524,ks,1784,True
+quarter_2024q4,quarter,Event volumes 2024Q4,120,1.7473748036215078,111272.004251,0.021602742896729366,3434,1077,2357,ks,233,False
+quarter_2024q4,quarter,Event volumes 2024Q4,500,1.7490147735453463,111876.18130699999,0.02154144560580684,3434,1075,2359,ks,927,False
+quarter_2024q4,quarter,Event volumes 2024Q4,500,1.2150317378890534,490.5979790000001,1.9999999999999996,3434,3291,143,reweighted_ks,927,False
+quarter_2024q4,quarter,Event volumes 2024Q4,500,1.7510679909144562,113269.2574409999,0.03129782392498903,3434,1068,2366,kuiper,927,False
+quarter_2024q4,quarter,Event volumes 2024Q4,1000,1.7490147735453463,111876.18130699999,0.02154144560580684,3434,1075,2359,ks,1610,False
+quarter_2025q1,quarter,Event volumes 2025Q1,120,2.0238500002919704,168190.24388599998,0.031081179200923292,5712,1079,4633,ks,236,False
+quarter_2025q1,quarter,Event volumes 2025Q1,500,2.028286303408348,169514.671052,0.030328508319550584,5712,1075,4637,ks,953,False
+quarter_2025q1,quarter,Event volumes 2025Q1,500,1.3423546992993014,3334.7546030000003,1.9999999999999996,5712,3890,1822,reweighted_ks,953,False
+quarter_2025q1,quarter,Event volumes 2025Q1,500,2.048237954333503,189396.665164,0.05250857354367108,5712,977,4735,kuiper,953,False
+quarter_2025q1,quarter,Event volumes 2025Q1,1000,2.0277013820020553,169882.10601600006,0.03041679076029935,5712,1072,4640,ks,1750,False
+quarter_2025q2,quarter,Event volumes 2025Q2,120,2.0850222047039764,324926.4122840001,0.025134956092702,7806,722,7084,ks,238,False
+quarter_2025q2,quarter,Event volumes 2025Q2,500,2.0902158935352713,330151.4336150004,0.024590575656407432,7806,713,7093,ks,958,False
+quarter_2025q2,quarter,Event volumes 2025Q2,500,1.1389452781665321,15.608284,1.9999999999999996,7806,7667,139,reweighted_ks,958,False
+quarter_2025q2,quarter,Event volumes 2025Q2,500,2.0902158935352713,330151.4336150004,0.03649175421398898,7806,713,7093,kuiper,958,False
+quarter_2025q2,quarter,Event volumes 2025Q2,1000,2.0903340771699734,331036.1416819995,0.02465877479144729,7806,711,7095,ks,1814,False
+quarter_2025q3,quarter,Event volumes 2025Q3,120,2.2704436057201223,1217817.0380710005,0.03256583581629714,22339,143,22196,ks,238,False
+quarter_2025q3,quarter,Event volumes 2025Q3,500,2.2739449807781136,1121796.9716959994,0.029746665895243996,22339,159,22180,ks,987,False
+quarter_2025q3,quarter,Event volumes 2025Q3,500,1.4267295105307038,1875.103098000001,1.9999999999999996,22339,16367,5972,reweighted_ks,987,False
+quarter_2025q3,quarter,Event volumes 2025Q3,500,2.2667027291531285,1139497.0762659998,0.05470436618856153,22339,155,22184,kuiper,987,False
+quarter_2025q3,quarter,Event volumes 2025Q3,1000,2.2739449807781136,1121796.9716959994,0.029746665895243996,22339,159,22180,ks,1923,False
+quarter_2025q4,quarter,Event volumes 2025Q4,120,1.863235957658584,24876.829631999964,0.02545240501458257,63978,18887,45091,ks,237,False
+quarter_2025q4,quarter,Event volumes 2025Q4,500,1.8648298869281104,25080.589156999955,0.025475830764083884,63978,18789,45189,ks,988,False
+quarter_2025q4,quarter,Event volumes 2025Q4,500,1.1226999828885087,2.040808,1.9999999999999996,63978,62313,1665,reweighted_ks,988,False
+quarter_2025q4,quarter,Event volumes 2025Q4,500,1.8751737960556083,26895.791858999994,0.0450936704850281,63978,17893,46085,kuiper,988,False
+quarter_2025q4,quarter,Event volumes 2025Q4,1000,1.862886220963638,24848.380331,0.025461850042987844,63978,18898,45080,ks,1955,False
+quarter_2026q1,quarter,Event volumes 2026Q1,120,1.9775072213248672,120920.22898300039,0.025345747605012403,162937,11047,151890,ks,238,False
+quarter_2026q1,quarter,Event volumes 2026Q1,500,1.9740237933768379,123127.5030319997,0.025410067205751896,162937,10815,152122,ks,997,False
+quarter_2026q1,quarter,Event volumes 2026Q1,500,1.3501006036875525,802.5945509999999,1.9999999999999996,162937,127693,35244,reweighted_ks,997,False
+quarter_2026q1,quarter,Event volumes 2026Q1,500,1.9550817105675966,149584.77461500003,0.04621478173780913,162937,8789,154148,kuiper,997,False
+quarter_2026q1,quarter,Event volumes 2026Q1,1000,1.9769599956548674,121142.73232899979,0.02533110694546581,162937,11021,151916,ks,1989,False
+quarter_2026q2,quarter,Event volumes 2026Q2,120,2.0609182842869314,779598.8137850002,0.01900022798552986,325226,1858,323368,ks,238,False
+quarter_2026q2,quarter,Event volumes 2026Q2,500,2.065344903920329,798468.3098370004,0.01793820183571415,325226,1819,323407,ks,996,False
+quarter_2026q2,quarter,Event volumes 2026Q2,500,1.3002106597724288,88.947362,1.9999999999999996,325226,244433,80793,reweighted_ks,996,False
+quarter_2026q2,quarter,Event volumes 2026Q2,500,2.0593526874799815,747028.3435580007,0.03411127351891882,325226,1941,323285,kuiper,996,False
+quarter_2026q2,quarter,Event volumes 2026Q2,1000,2.0689289166173337,803471.4660509998,0.018449263870003674,325226,1813,323413,ks,1990,False
+quarter_2026q3,quarter,Event volumes 2026Q3,120,2.065547381566476,287876.700499,0.02033228225143391,186502,1957,184545,ks,238,False
+quarter_2026q3,quarter,Event volumes 2026Q3,500,2.0667386667220304,288455.28197700024,0.02020396634110533,186502,1955,184547,ks,991,False
+quarter_2026q3,quarter,Event volumes 2026Q3,500,1.339647292653329,111.15353699999999,1.9999999999999996,186502,129830,56672,reweighted_ks,991,False
+quarter_2026q3,quarter,Event volumes 2026Q3,500,2.0753491199050664,307603.9641440001,0.03754883425716893,186502,1840,184662,kuiper,991,False
+quarter_2026q3,quarter,Event volumes 2026Q3,1000,2.0658505974169388,289062.16790500015,0.020377490321864977,186502,1949,184553,ks,1974,False
+top1000_selected,global,"Top-1,000 event volumes: selected cutoff",120,2.316510274988085,10496709.649462996,0.025721351156916816,1000,375,625,ks,901,True
+top1000_selected,global,"Top-1,000 event volumes: selected cutoff",500,2.316510274988085,10496709.649462996,0.025721351156916816,1000,375,625,ks,901,True
+top1000_selected,global,"Top-1,000 event volumes: selected cutoff",500,2.1419487413264964,4187202.4963110476,1.9999999999999996,1000,956,44,reweighted_ks,901,True
+top1000_selected,global,"Top-1,000 event volumes: selected cutoff",500,2.312392314001465,10429254.781675002,0.037883724176341504,1000,377,623,kuiper,901,True
+top1000_selected,global,"Top-1,000 event volumes: selected cutoff",1000,2.316510274988085,10496709.649462996,0.025721351156916816,1000,375,625,ks,901,True
+wallet_sample200000,global,"Wallet participation volume: seeded 200,000-address sample",120,1.8301032249554168,20585.171871,0.00757071909814977,200000,13676,186324,ks,238,False
+wallet_sample200000,global,"Wallet participation volume: seeded 200,000-address sample",500,1.8306888249440472,20523.122216000003,0.007452949222293004,200000,13720,186280,ks,995,False
+wallet_sample200000,global,"Wallet participation volume: seeded 200,000-address sample",500,1.1319269929325293,0.23733300000000002,1.9999999999999996,200000,196976,3024,reweighted_ks,995,False
+wallet_sample200000,global,"Wallet participation volume: seeded 200,000-address sample",500,1.8294228707926519,20901.277000000002,0.01393825210762445,200000,13493,186507,kuiper,995,False
+wallet_sample200000,global,"Wallet participation volume: seeded 200,000-address sample",1000,1.832351787423713,20354.64064,0.00736938176888996,200000,13842,186158,ks,1983,False

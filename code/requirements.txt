@@ -1,0 +1,9 @@
+# Compact offline computations and rendering: tested with Python 3.12.14.
+numpy==2.5.3
+numba==0.67.0
+scipy==1.18.1
+matplotlib==3.11.2
+reportlab==4.4.9
+pypdf==6.21.4
+PyYAML==6.0.3
+pyarrow==25.0.1

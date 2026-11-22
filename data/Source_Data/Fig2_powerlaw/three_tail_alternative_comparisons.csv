@@ -1,0 +1,13 @@
+key,alternative,loglik_ratio_pareto_minus_alternative,p_raw,p_holm_within_dataset,favored,test
+leaderboard_pnl,exponential,47.92156960759749,0.0008204505969012,0.003281802387605,Pareto,Vuong non-nested
+leaderboard_pnl,lognormal,-1.0339803273518768,0.3468440133705145,0.6686837768454519,lognormal,Vuong non-nested
+leaderboard_pnl,stretched_exponential,-1.156004800477044,0.3343418884227259,0.6686837768454519,stretched_exponential,Vuong non-nested
+leaderboard_pnl,power_law_with_exponential_cutoff,-1.809852051695998,0.0570990278235955,0.1712970834707865,power_law_with_exponential_cutoff,nested likelihood ratio
+leaderboard_volume,exponential,86.69592804167924,0.0002550624656027,0.0010202498624111,Pareto,Vuong non-nested
+leaderboard_volume,lognormal,-3.940839122415202,0.0857713604183948,0.1593526037375049,lognormal,Vuong non-nested
+leaderboard_volume,stretched_exponential,-4.181649969247268,0.0796763018687524,0.1593526037375049,stretched_exponential,Vuong non-nested
+leaderboard_volume,power_law_with_exponential_cutoff,-4.725143083271178,0.0021111615963261,0.0063334847889783,power_law_with_exponential_cutoff,nested likelihood ratio
+top1000_selected,exponential,125.9563486274705,0.0064088803114765,0.025635521245906,Pareto,Vuong non-nested
+top1000_selected,lognormal,-0.3968127006092228,0.6167323917923755,1.0,lognormal,Vuong non-nested
+top1000_selected,stretched_exponential,-0.412056504605907,0.6131230729060653,1.0,stretched_exponential,Vuong non-nested
+top1000_selected,power_law_with_exponential_cutoff,-0.468432654451135,0.3330853099715533,0.9992559299146598,power_law_with_exponential_cutoff,nested likelihood ratio

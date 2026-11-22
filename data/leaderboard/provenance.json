@@ -1,0 +1,353 @@
+{
+  "snapshot_id": "full-20260904",
+  "collector_version": "0.1.0",
+  "source": "https://data-api.polymarket.com/v1/leaderboard",
+  "started_at": "2026-09-04T08:21:52.164Z",
+  "completed_at": "2026-09-04T08:30:05.156Z",
+  "original_collection_counts": {
+    "queries": 88,
+    "api_pages": 1830,
+    "leaderboard_rows": 91472,
+    "wide_rows": 73837,
+    "unique_traders": 29850,
+    "profiles": 27614,
+    "profile_errors": 2236
+  },
+  "released_query_count": 2,
+  "paper_rows": 2000,
+  "paper_unique_accounts": 1598,
+  "paper_cross_list_accounts": 402,
+  "max_abs_numeric_serialization_difference": {
+    "volume": 1.1920928955078125e-07,
+    "pnl": 3.725290298461914e-09
+  },
+  "description": "All OVERALL/ALL PNL and VOL pages were observed through offset 1000; both feeds may extend beyond 1050. The manuscript uses ranks 1–1000 per ordering. Each paper rank was checked against the API page (numeric serialization differences below one millionth of the reported unit); account equivalence was checked on every included row. R identifiers are assigned in PNL rank, then VOL rank order, and only preserve this overlap.",
+  "omitted": [
+    "wallet addresses",
+    "profile fields and responses",
+    "user names",
+    "social accounts",
+    "images",
+    "verified status",
+    "HTTP headers",
+    "86 other queries"
+  ],
+  "queries": {
+    "PNL": {
+      "raw_sha256": "b4238dd8f79de811bab21074d5230d9c4163096418aaa94dbfdf04d31b7a7f8a",
+      "raw_bytes": 375014,
+      "category": "OVERALL",
+      "time_period": "ALL",
+      "order_by": "PNL",
+      "reached_offset_ceiling": true,
+      "possibly_truncated": true,
+      "pages": [
+        {
+          "offset": 0,
+          "limit": 50,
+          "fetched_at": "2026-09-04T08:21:52.643Z",
+          "status": 200,
+          "row_count": 50
+        },
+        {
+          "offset": 50,
+          "limit": 50,
+          "fetched_at": "2026-09-04T08:21:52.923Z",
+          "status": 200,
+          "row_count": 50
+        },
+        {
+          "offset": 100,
+          "limit": 50,
+          "fetched_at": "2026-09-04T08:21:53.338Z",
+          "status": 200,
+          "row_count": 50
+        },
+        {
+          "offset": 150,
+          "limit": 50,
+          "fetched_at": "2026-09-04T08:21:53.674Z",
+          "status": 200,
+          "row_count": 50
+        },
+        {
+          "offset": 200,
+          "limit": 50,
+          "fetched_at": "2026-09-04T08:21:54.117Z",
+          "status": 200,
+          "row_count": 50
+        },
+        {
+          "offset": 250,
+          "limit": 50,
+          "fetched_at": "2026-09-04T08:21:54.476Z",
+          "status": 200,
+          "row_count": 50
+        },
+        {
+          "offset": 300,
+          "limit": 50,
+          "fetched_at": "2026-09-04T08:21:54.798Z",
+          "status": 200,
+          "row_count": 50
+        },
+        {
+          "offset": 350,
+          "limit": 50,
+          "fetched_at": "2026-09-04T08:21:55.101Z",
+          "status": 200,
+          "row_count": 50
+        },
+        {
+          "offset": 400,
+          "limit": 50,
+          "fetched_at": "2026-09-04T08:21:55.534Z",
+          "status": 200,
+          "row_count": 50
+        },
+        {
+          "offset": 450,
+          "limit": 50,
+          "fetched_at": "2026-09-04T08:21:55.981Z",
+          "status": 200,
+          "row_count": 50
+        },
+        {
+          "offset": 500,
+          "limit": 50,
+          "fetched_at": "2026-09-04T08:21:56.259Z",
+          "status": 200,
+          "row_count": 50
+        },
+        {
+          "offset": 550,
+          "limit": 50,
+          "fetched_at": "2026-09-04T08:21:56.574Z",
+          "status": 200,
+          "row_count": 50
+        },
+        {
+          "offset": 600,
+          "limit": 50,
+          "fetched_at": "2026-09-04T08:21:56.901Z",
+          "status": 200,
+          "row_count": 50
+        },
+        {
+          "offset": 650,
+          "limit": 50,
+          "fetched_at": "2026-09-04T08:21:57.216Z",
+          "status": 200,
+          "row_count": 50
+        },
+        {
+          "offset": 700,
+          "limit": 50,
+          "fetched_at": "2026-09-04T08:21:57.610Z",
+          "status": 200,
+          "row_count": 50
+        },
+        {
+          "offset": 750,
+          "limit": 50,
+          "fetched_at": "2026-09-04T08:21:57.870Z",
+          "status": 200,
+          "row_count": 50
+        },
+        {
+          "offset": 800,
+          "limit": 50,
+          "fetched_at": "2026-09-04T08:21:58.156Z",
+          "status": 200,
+          "row_count": 50
+        },
+        {
+          "offset": 850,
+          "limit": 50,
+          "fetched_at": "2026-09-04T08:21:58.420Z",
+          "status": 200,
+          "row_count": 50
+        },
+        {
+          "offset": 900,
+          "limit": 50,
+          "fetched_at": "2026-09-04T08:21:58.852Z",
+          "status": 200,
+          "row_count": 50
+        },
+        {
+          "offset": 950,
+          "limit": 50,
+          "fetched_at": "2026-09-04T08:21:59.162Z",
+          "status": 200,
+          "row_count": 50
+        },
+        {
+          "offset": 1000,
+          "limit": 50,
+          "fetched_at": "2026-09-04T08:21:59.462Z",
+          "status": 200,
+          "row_count": 50
+        }
+      ]
+    },
+    "VOL": {
+      "raw_sha256": "dcbd2c79beeea80a19f74941fb1a7ef712f905ef03c83e86fd460b9c1803dc6c",
+      "raw_bytes": 382504,
+      "category": "OVERALL",
+      "time_period": "ALL",
+      "order_by": "VOL",
+      "reached_offset_ceiling": true,
+      "possibly_truncated": true,
+      "pages": [
+        {
+          "offset": 0,
+          "limit": 50,
+          "fetched_at": "2026-09-04T08:21:52.673Z",
+          "status": 200,
+          "row_count": 50
+        },
+        {
+          "offset": 50,
+          "limit": 50,
+          "fetched_at": "2026-09-04T08:21:52.947Z",
+          "status": 200,
+          "row_count": 50
+        },
+        {
+          "offset": 100,
+          "limit": 50,
+          "fetched_at": "2026-09-04T08:21:53.224Z",
+          "status": 200,
+          "row_count": 50
+        },
+        {
+          "offset": 150,
+          "limit": 50,
+          "fetched_at": "2026-09-04T08:21:53.636Z",
+          "status": 200,
+          "row_count": 50
+        },
+        {
+          "offset": 200,
+          "limit": 50,
+          "fetched_at": "2026-09-04T08:21:53.916Z",
+          "status": 200,
+          "row_count": 50
+        },
+        {
+          "offset": 250,
+          "limit": 50,
+          "fetched_at": "2026-09-04T08:21:54.179Z",
+          "status": 200,
+          "row_count": 50
+        },
+        {
+          "offset": 300,
+          "limit": 50,
+          "fetched_at": "2026-09-04T08:21:54.503Z",
+          "status": 200,
+          "row_count": 50
+        },
+        {
+          "offset": 350,
+          "limit": 50,
+          "fetched_at": "2026-09-04T08:21:54.789Z",
+          "status": 200,
+          "row_count": 50
+        },
+        {
+          "offset": 400,
+          "limit": 50,
+          "fetched_at": "2026-09-04T08:21:55.207Z",
+          "status": 200,
+          "row_count": 50
+        },
+        {
+          "offset": 450,
+          "limit": 50,
+          "fetched_at": "2026-09-04T08:21:55.543Z",
+          "status": 200,
+          "row_count": 50
+        },
+        {
+          "offset": 500,
+          "limit": 50,
+          "fetched_at": "2026-09-04T08:21:55.873Z",
+          "status": 200,
+          "row_count": 50
+        },
+        {
+          "offset": 550,
+          "limit": 50,
+          "fetched_at": "2026-09-04T08:21:56.140Z",
+          "status": 200,
+          "row_count": 50
+        },
+        {
+          "offset": 600,
+          "limit": 50,
+          "fetched_at": "2026-09-04T08:21:56.433Z",
+          "status": 200,
+          "row_count": 50
+        },
+        {
+          "offset": 650,
+          "limit": 50,
+          "fetched_at": "2026-09-04T08:21:56.784Z",
+          "status": 200,
+          "row_count": 50
+        },
+        {
+          "offset": 700,
+          "limit": 50,
+          "fetched_at": "2026-09-04T08:21:57.095Z",
+          "status": 200,
+          "row_count": 50
+        },
+        {
+          "offset": 750,
+          "limit": 50,
+          "fetched_at": "2026-09-04T08:21:57.415Z",
+          "status": 200,
+          "row_count": 50
+        },
+        {
+          "offset": 800,
+          "limit": 50,
+          "fetched_at": "2026-09-04T08:21:57.743Z",
+          "status": 200,
+          "row_count": 50
+        },
+        {
+          "offset": 850,
+          "limit": 50,
+          "fetched_at": "2026-09-04T08:21:58.011Z",
+          "status": 200,
+          "row_count": 50
+        },
+        {
+          "offset": 900,
+          "limit": 50,
+          "fetched_at": "2026-09-04T08:21:58.312Z",
+          "status": 200,
+          "row_count": 50
+        },
+        {
+          "offset": 950,
+          "limit": 50,
+          "fetched_at": "2026-09-04T08:21:58.609Z",
+          "status": 200,
+          "row_count": 50
+        },
+        {
+          "offset": 1000,
+          "limit": 50,
+          "fetched_at": "2026-09-04T08:21:58.918Z",
+          "status": 200,
+          "row_count": 50
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "completed_at_utc": "2026-09-01T12:54:17Z",
+  "event_count": 931023,
+  "files": [
+    {
+      "path": "events.jsonl.gz",
+      "sha256": "94965334cbab5c1f637b338ec91fa65814fbd53bcb0fca45dd4170a532299000",
+      "size": 40715557,
+      "source_bytes": 40715557
+    },
+    {
+      "path": "condition_event_map.jsonl.gz",
+      "sha256": "7c16eadd48a3739772db6c82bef9f645a5ba4e967627ae8a32ff1791060c11ad",
+      "size": 467994099,
+      "source_bytes": 467994099
+    },
+    {
+      "path": "tags.jsonl.gz",
+      "sha256": "20c9ecd7ae814a83e17305e011fca11056cef988bca8116c388f80c85cc9c974",
+      "size": 95230,
+      "source_bytes": 95230
+    }
+  ],
+  "market_count": 2948008,
+  "page_count": 9314,
+  "program_version": "1.1.0",
+  "retrieved_at_utc": "2026-09-01T11:40:20Z",
+  "schema_version": 1,
+  "source": "https://gamma-api.polymarket.com",
+  "tag_count": 6899,
+  "raw_mapping_diagnostics": {
+    "raw_rows": 2948008,
+    "missing_condition_id": 1380
+  },
+  "focal_market_rows_by_exact_slug": 17
+}

@@ -1,0 +1,148 @@
+{
+  "schema_version": 1,
+  "description": "De-identified October 2024 non-focal wallet-by-subject USDC vectors for the four specified election purchase-size cohorts.",
+  "privacy": "row_id is newly assigned for this release; wallet addresses and the original opaque wallet identifiers are not included.",
+  "population": "October-active Harris-only or Trump-only wallets in the pooled September focal-market Bottom 5% or Top 5% purchase-size strata.",
+  "formation_cutoffs_usdc": {
+    "bottom_5_max": 1.09414,
+    "top_5_min": 2787.7355399999997,
+    "boundary_ties_retained": true
+  },
+  "amount_definition": "Gross mapped non-focal October wallet participation amount in USDC; a fill contributes once to each appearing maker/taker wallet upstream.",
+  "subjects": [
+    {
+      "column": "bitcoin",
+      "label": "Bitcoin-linked contracts"
+    },
+    {
+      "column": "commodities",
+      "label": "Finance - Commodities"
+    },
+    {
+      "column": "crypto_alts",
+      "label": "Crypto - Alts/DeFi/stablecoins"
+    },
+    {
+      "column": "crypto_majors",
+      "label": "Other major crypto (non-Bitcoin)"
+    },
+    {
+      "column": "crypto_short_horizon",
+      "label": "Crypto - Intraday price"
+    },
+    {
+      "column": "economy_macro",
+      "label": "Economy - Macro"
+    },
+    {
+      "column": "entertainment",
+      "label": "Culture - Entertainment/awards"
+    },
+    {
+      "column": "finance_technology",
+      "label": "Finance - Stocks/technology"
+    },
+    {
+      "column": "meta_mentions",
+      "label": "Meta - Mentions/trending"
+    },
+    {
+      "column": "other",
+      "label": "Other"
+    },
+    {
+      "column": "politics_global",
+      "label": "Politics - Other/global"
+    },
+    {
+      "column": "politics_us_federal",
+      "label": "Politics - US federal"
+    },
+    {
+      "column": "politics_us_local",
+      "label": "Politics - US state/local"
+    },
+    {
+      "column": "sports_baseball",
+      "label": "Sports - Baseball"
+    },
+    {
+      "column": "sports_basketball",
+      "label": "Sports - Basketball"
+    },
+    {
+      "column": "sports_esports",
+      "label": "Sports - Esports"
+    },
+    {
+      "column": "sports_hockey",
+      "label": "Sports - Hockey"
+    },
+    {
+      "column": "sports_nfl",
+      "label": "Sports - NFL/CFB"
+    },
+    {
+      "column": "sports_other",
+      "label": "Sports - Other"
+    },
+    {
+      "column": "sports_soccer",
+      "label": "Sports - Soccer"
+    },
+    {
+      "column": "sports_tennis",
+      "label": "Sports - Tennis"
+    },
+    {
+      "column": "weather",
+      "label": "Weather and climate"
+    }
+  ],
+  "cohort_counts": {
+    "HB": {
+      "eligible_wallets": 504,
+      "october_active_wallets": 360
+    },
+    "TB": {
+      "eligible_wallets": 541,
+      "october_active_wallets": 308
+    },
+    "HT": {
+      "eligible_wallets": 334,
+      "october_active_wallets": 168
+    },
+    "TT": {
+      "eligible_wallets": 251,
+      "october_active_wallets": 135
+    }
+  },
+  "rows": 971,
+  "source_files": [
+    {
+      "name": "analysis_arrays.npz",
+      "bytes": 870708,
+      "sha256": "c60bd3681bbe9261bfc9c60576c9638de700d655e6ff9970f5592da764ce1058"
+    },
+    {
+      "name": "wallet_event_period.parquet",
+      "bytes": 2806343,
+      "sha256": "9379535cb52396d794d6b6342fa79c7a5b9b09b7d2e2f03002c999e7fdbff64c"
+    },
+    {
+      "name": "network_results.json",
+      "bytes": 82952,
+      "sha256": "a8f64d6d153fe331d2ea1d5c57b01f5a1def1b0774befcdc7935e5d32c10928d"
+    },
+    {
+      "name": "bitcoin_title_audit.json",
+      "bytes": 2957,
+      "sha256": "fe93b1fbfa18cc52aae75b1df020af3eeafd03a9b38415882fdee8b1f74fceb8"
+    }
+  ],
+  "released_csv": {
+    "name": "election_october_wallet_vectors.csv",
+    "bytes": 117438,
+    "sha256": "d52ed9b3464437d243e452d7659cf72426b82b4c1740a92807591573725d0e24"
+  }
+}

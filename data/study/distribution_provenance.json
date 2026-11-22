@@ -1,0 +1,16 @@
+{
+  "archive_wallet_amount_rows": 3106517,
+  "amounts_include_unmapped_fills": true,
+  "amount_total": 82618283306.31503,
+  "gini_verified": 0.9623243404979405,
+  "original_wallet_totals_sha256": "f7d8ceca19b2b5dae20348b8a729ecc9115337caf9a090cb9de49883e9d685c0",
+  "published_gini_file": "Source_Data/Fig1_concentration/wallet_concentration.csv",
+  "degree_node_counts": {
+    "wallet": 3106514,
+    "event": 764378
+  },
+  "degree_weighted_sum_per_partition": 255704359,
+  "original_degree_histograms_sha256": "f7090d50138d7b963ef695c554090991ea7f45da44841d7b802745833d68644a",
+  "verified_against": "Independently recomputed frequency of successive CSR indptr differences on both partitions of the complete mapped graph.",
+  "note": "Per-wallet amounts have no identifiers or original row order. They are not linked to graph degrees. No wallet addresses, bilateral fill records, or financial outcomes per identifiable address are supplied."
+}

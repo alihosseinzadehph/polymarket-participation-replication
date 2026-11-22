@@ -1,0 +1,371 @@
+{
+  "scope": "Targeted real-event regression cases, not independent human validation or a population error-rate estimate.",
+  "evidence_sha256": "74cd0861910eeebc280ccf0b137c532aa703fb2dcf580f94c726b085d4dfa4d0",
+  "classifier_sha256": "5754ec74d4152f939ea973bd6f38801bfd36f3ff95913b0166fc6ae43a27bcf5",
+  "rules_sha256": "52298a71203444c3fcaeb3bd1dbae883afcb2bc8477555974d2863ea4a871aea",
+  "total": 20,
+  "passed": 20,
+  "cases": [
+    {
+      "event_id": "250165",
+      "title": "T20 World Cup: India vs New Zealand",
+      "slug": "crint-ind-nzl-2026-03-08",
+      "original_tags": [
+        "cricket",
+        "games",
+        "international-cricket",
+        "sports"
+      ],
+      "acceptable_categories": [
+        "sports_other"
+      ],
+      "actual": "sports_other",
+      "basis": "outcome_rule",
+      "passed": true
+    },
+    {
+      "event_id": "336477",
+      "title": "Indian Premier League: Kolkata Knight Riders vs Lucknow Super Giants",
+      "slug": "cricipl-kol-luc-2026-04-09",
+      "original_tags": [
+        "cricket",
+        "games",
+        "indian-premier-league",
+        "sports"
+      ],
+      "acceptable_categories": [
+        "sports_other"
+      ],
+      "actual": "sports_other",
+      "basis": "outcome_rule",
+      "passed": true
+    },
+    {
+      "event_id": "522244",
+      "title": "Indian Premier League: Sunrisers Hyderabad vs Rajasthan Royals",
+      "slug": "cricipl-sun-raj-2026-05-27",
+      "original_tags": [
+        "cricket",
+        "games",
+        "indian-premier-league",
+        "sports"
+      ],
+      "acceptable_categories": [
+        "sports_other"
+      ],
+      "actual": "sports_other",
+      "basis": "outcome_rule",
+      "passed": true
+    },
+    {
+      "event_id": "357836",
+      "title": "Indian Premier League: Chennai Super Kings vs Kolkata Knight Riders",
+      "slug": "cricipl-che-kol-2026-04-14",
+      "original_tags": [
+        "cricket",
+        "games",
+        "indian-premier-league",
+        "sports"
+      ],
+      "acceptable_categories": [
+        "sports_other"
+      ],
+      "actual": "sports_other",
+      "basis": "outcome_rule",
+      "passed": true
+    },
+    {
+      "event_id": "107710",
+      "title": "2026 ICC T20 Men’s World Cup Winner",
+      "slug": "2026-icc-t20-mens-world-cup-winner",
+      "original_tags": [
+        "cricket",
+        "international-cricket",
+        "sports",
+        "t20"
+      ],
+      "acceptable_categories": [
+        "sports_other"
+      ],
+      "actual": "sports_other",
+      "basis": "outcome_rule",
+      "passed": true
+    },
+    {
+      "event_id": "80505",
+      "title": "US government shutdown Saturday?",
+      "slug": "will-there-be-another-us-government-shutdown-by-january-31",
+      "original_tags": [
+        "congress",
+        "gov-shutdown",
+        "parent-for-derivative",
+        "politics"
+      ],
+      "acceptable_categories": [
+        "politics_us_federal"
+      ],
+      "actual": "politics_us_federal",
+      "basis": "political_fallback",
+      "passed": true
+    },
+    {
+      "event_id": "12327",
+      "title": "Will there be a US Government shutdown? ",
+      "slug": "us-government-shutdown-before-2025",
+      "original_tags": [
+        "biden",
+        "congress",
+        "gov-shutdown",
+        "politics"
+      ],
+      "acceptable_categories": [
+        "politics_us_federal"
+      ],
+      "actual": "politics_us_federal",
+      "basis": "political_fallback",
+      "passed": true
+    },
+    {
+      "event_id": "14023",
+      "title": "Who will be inaugurated as President? ",
+      "slug": "who-will-be-inaugurated-as-president",
+      "original_tags": [
+        "jan-6",
+        "january-6",
+        "politics"
+      ],
+      "acceptable_categories": [
+        "politics_us_federal"
+      ],
+      "actual": "politics_us_federal",
+      "basis": "text",
+      "passed": true
+    },
+    {
+      "event_id": "16180",
+      "title": "Maduro out by...?",
+      "slug": "maduro-out-in-2025",
+      "original_tags": [
+        "2025-predictions",
+        "politics",
+        "venezuela",
+        "world"
+      ],
+      "acceptable_categories": [
+        "politics_global"
+      ],
+      "actual": "politics_global",
+      "basis": "political_fallback",
+      "passed": true
+    },
+    {
+      "event_id": "17725",
+      "title": "Starmer out by...?",
+      "slug": "starmer-out-in-2025",
+      "original_tags": [
+        "grooming-gangs",
+        "keir",
+        "politics",
+        "starmer",
+        "uk",
+        "uk-labour-leadership",
+        "world"
+      ],
+      "acceptable_categories": [
+        "politics_global"
+      ],
+      "actual": "politics_global",
+      "basis": "political_fallback",
+      "passed": true
+    },
+    {
+      "event_id": "22453",
+      "title": "People Power Party (PPP) Presidential Candidate",
+      "slug": "people-power-party-ppp-presidential-candidate",
+      "original_tags": [
+        "politics",
+        "south-korea",
+        "world",
+        "yoon"
+      ],
+      "acceptable_categories": [
+        "politics_global"
+      ],
+      "actual": "politics_global",
+      "basis": "political_fallback",
+      "passed": true
+    },
+    {
+      "event_id": "14228",
+      "title": "(Old) Romania Election",
+      "slug": "romania-presidential-election",
+      "original_tags": [
+        "eu",
+        "europe"
+      ],
+      "acceptable_categories": [
+        "politics_global"
+      ],
+      "actual": "politics_global",
+      "basis": "political_fallback",
+      "passed": true
+    },
+    {
+      "event_id": "39671",
+      "title": "Lisa Cook out as Fed Governor by...?",
+      "slug": "lisa-cook-out-as-fed-governor-by-september-30",
+      "original_tags": [
+        "fed",
+        "fed-rates",
+        "finance",
+        "politics",
+        "trump",
+        "trump-presidency"
+      ],
+      "acceptable_categories": [
+        "politics_us_federal",
+        "economy_macro"
+      ],
+      "actual": "politics_us_federal",
+      "basis": "tag",
+      "passed": true
+    },
+    {
+      "event_id": "20810",
+      "title": "Wisconsin Supreme Court election: Susan Crawford vs. Brad Schimel ",
+      "slug": "wisconsin-supreme-court-election-susan-crawford-vs-brad-schimel",
+      "original_tags": [
+        "courts",
+        "politics",
+        "special-elections",
+        "us-election",
+        "us-presidential-election"
+      ],
+      "acceptable_categories": [
+        "politics_us_local"
+      ],
+      "actual": "politics_us_local",
+      "basis": "text",
+      "passed": true
+    },
+    {
+      "event_id": "237297",
+      "title": "Will the Kharg Island oil terminal be hit by...?",
+      "slug": "will-the-kharg-island-oil-terminal-be-hit-by-march-31",
+      "original_tags": [
+        "geopolitics",
+        "iran",
+        "israel",
+        "khamenei",
+        "middle-east",
+        "oil",
+        "strait-of-hormuz",
+        "trump"
+      ],
+      "acceptable_categories": [
+        "politics_global"
+      ],
+      "actual": "politics_global",
+      "basis": "outcome_rule",
+      "passed": true
+    },
+    {
+      "event_id": "26900",
+      "title": "Will the Kharg Island oil terminal be hit in June?",
+      "slug": "will-the-kharg-island-oil-terminal-be-hit-in-june",
+      "original_tags": [
+        "geopolitics",
+        "iran",
+        "middle-east",
+        "world"
+      ],
+      "acceptable_categories": [
+        "politics_global"
+      ],
+      "actual": "politics_global",
+      "basis": "outcome_rule",
+      "passed": true
+    },
+    {
+      "event_id": "13390",
+      "title": "Who will lead on Silver Bulletin on Friday?",
+      "slug": "who-will-lead-on-silver-bulletin-on-friday",
+      "original_tags": [
+        "deprec-us-election",
+        "deprec-usa-election",
+        "kamala",
+        "politics",
+        "polling",
+        "trump"
+      ],
+      "acceptable_categories": [
+        "politics_us_federal"
+      ],
+      "actual": "politics_us_federal",
+      "basis": "political_fallback",
+      "passed": true
+    },
+    {
+      "event_id": "13531",
+      "title": "Who will lead on Silver Bulletin on Friday?",
+      "slug": "who-will-lead-on-silver-bulletin-on-friday-oct-25",
+      "original_tags": [
+        "538",
+        "deprec-us-election",
+        "deprec-usa-election",
+        "favorite",
+        "forecast",
+        "kamala",
+        "model",
+        "nate",
+        "politics",
+        "polling",
+        "trump"
+      ],
+      "acceptable_categories": [
+        "politics_us_federal"
+      ],
+      "actual": "politics_us_federal",
+      "basis": "political_fallback",
+      "passed": true
+    },
+    {
+      "event_id": "16528",
+      "title": "Karen Bass out as Mayor of LA before April?",
+      "slug": "karen-bass-out-as-mayor-of-la-before-july",
+      "original_tags": [
+        "los-angeles",
+        "politics",
+        "wildfire"
+      ],
+      "acceptable_categories": [
+        "politics_us_local"
+      ],
+      "actual": "politics_us_local",
+      "basis": "text",
+      "passed": true
+    },
+    {
+      "event_id": "16756",
+      "title": "Karen Bass out as Mayor of LA in 2025?",
+      "slug": "karen-bass-out-as-mayor-of-la-in-2025",
+      "original_tags": [
+        "2025-predictions",
+        "all-in",
+        "california",
+        "creators",
+        "fire",
+        "la-protests",
+        "los-angeles",
+        "palisades",
+        "politics"
+      ],
+      "acceptable_categories": [
+        "politics_us_local"
+      ],
+      "actual": "politics_us_local",
+      "basis": "text",
+      "passed": true
+    }
+  ]
+}

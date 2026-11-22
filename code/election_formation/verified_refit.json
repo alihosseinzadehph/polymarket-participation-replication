@@ -1,0 +1,51 @@
+{
+  "buffered_files": 188,
+  "buffered_bytes": 210404870,
+  "pooled_buyers": 21301,
+  "lower_usdc": 1.09414,
+  "upper_usdc": 2787.7355399999997,
+  "eligible": {
+    "HB": {
+      "rows": 504,
+      "max_cell_error_usdc": 2.9103830456733704e-11,
+      "exact_float_match": false
+    },
+    "TB": {
+      "rows": 541,
+      "max_cell_error_usdc": 2.9103830456733704e-11,
+      "exact_float_match": false
+    },
+    "HT": {
+      "rows": 334,
+      "max_cell_error_usdc": 3.4924596548080444e-09,
+      "exact_float_match": false
+    },
+    "TT": {
+      "rows": 251,
+      "max_cell_error_usdc": 2.8870999813079834e-07,
+      "exact_float_match": false
+    }
+  },
+  "active": {
+    "HB": {
+      "rows": 360,
+      "max_cell_error_usdc": 2.9103830456733704e-11,
+      "exact_float_match": false
+    },
+    "TB": {
+      "rows": 308,
+      "max_cell_error_usdc": 2.9103830456733704e-11,
+      "exact_float_match": false
+    },
+    "HT": {
+      "rows": 168,
+      "max_cell_error_usdc": 3.4924596548080444e-09,
+      "exact_float_match": false
+    },
+    "TT": {
+      "rows": 135,
+      "max_cell_error_usdc": 2.8870999813079834e-07,
+      "exact_float_match": false
+    }
+  }
+}

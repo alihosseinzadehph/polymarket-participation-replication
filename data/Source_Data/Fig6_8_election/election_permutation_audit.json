@@ -1,0 +1,222 @@
+{
+  "analysis": "Election candidate-label permutation audit",
+  "input": {
+    "path": "election_october_wallet_vectors.csv",
+    "sha256": "d52ed9b3464437d243e452d7659cf72426b82b4c1740a92807591573725d0e24",
+    "subjects": [
+      "bitcoin",
+      "commodities",
+      "crypto_alts",
+      "crypto_majors",
+      "crypto_short_horizon",
+      "economy_macro",
+      "entertainment",
+      "finance_technology",
+      "meta_mentions",
+      "other",
+      "politics_global",
+      "politics_us_federal",
+      "politics_us_local",
+      "sports_baseball",
+      "sports_basketball",
+      "sports_esports",
+      "sports_hockey",
+      "sports_nfl",
+      "sports_other",
+      "sports_soccer",
+      "sports_tennis",
+      "weather"
+    ],
+    "active_group_sizes": {
+      "HB": 360,
+      "TB": 308,
+      "HT": 168,
+      "TT": 135
+    }
+  },
+  "within_tier_reproduction": {
+    "purpose": "Reproduction of the previously reported exploratory eight-test family; profile tests are upper-tail and richness tests are two-sided.",
+    "legacy_seed_base": 20260925,
+    "permutations": 9999,
+    "results": {
+      "Bottom 5%": {
+        "richness": {
+          "mean_difference": 0.5896103896103897,
+          "exceedances_two_sided": 41,
+          "permutations": 9999,
+          "plus_one_p_two_sided": 0.0042,
+          "holm_p_8": 0.0252
+        },
+        "profiles": {
+          "amount": {
+            "jsd_bits": 0.27771563182190856,
+            "exceedances": 1116,
+            "permutations": 9999,
+            "plus_one_p": 0.1117,
+            "holm_p_8": 0.4468
+          },
+          "equal_wallet": {
+            "jsd_bits": 0.04615374702002199,
+            "exceedances": 0,
+            "permutations": 9999,
+            "plus_one_p": 0.0001,
+            "holm_p_8": 0.0008
+          },
+          "prevalence": {
+            "jsd_bits": 0.060952909366998535,
+            "exceedances": 0,
+            "permutations": 9999,
+            "plus_one_p": 0.0001,
+            "holm_p_8": 0.0008
+          }
+        }
+      },
+      "Top 5%": {
+        "richness": {
+          "mean_difference": -0.6359788359788361,
+          "exceedances_two_sided": 498,
+          "permutations": 9999,
+          "plus_one_p_two_sided": 0.0499,
+          "holm_p_8": 0.2495
+        },
+        "profiles": {
+          "amount": {
+            "jsd_bits": 0.07282034370148822,
+            "exceedances": 2115,
+            "permutations": 9999,
+            "plus_one_p": 0.2116,
+            "holm_p_8": 0.6348
+          },
+          "equal_wallet": {
+            "jsd_bits": 0.024823976398900605,
+            "exceedances": 5470,
+            "permutations": 9999,
+            "plus_one_p": 0.5471,
+            "holm_p_8": 0.9334
+          },
+          "prevalence": {
+            "jsd_bits": 0.01255572401767034,
+            "exceedances": 4666,
+            "permutations": 9999,
+            "plus_one_p": 0.4667,
+            "holm_p_8": 0.9334
+          }
+        }
+      }
+    }
+  },
+  "direct_bottom_minus_top_test": {
+    "statistic": "Delta = JSD(HB,TB) - JSD(HT,TT)",
+    "directional_alternative": "Delta > 0",
+    "permutations": 9999,
+    "seed": 20260929,
+    "randomization": "Candidate labels are independently reassigned within Bottom and Top among fixed October-active wallet vectors, preserving observed active Harris/Trump group sizes in each tier. The same assignment is used for all six views within a replicate.",
+    "conditioning": "The tier-specific wallet-vector multisets are fixed. Thus total spend, subject breadth, within-wallet allocation concentration, and all subject amounts are conditioned on rather than simulated. Exchangeability of candidate labels within tier is the identifying null assumption.",
+    "multiplicity": "Holm family-wise adjustment across the six specified directional tests; centered two-sided probabilities are included as a sensitivity.",
+    "metrics": {
+      "amount_profile": {
+        "bottom_jsd_bits": 0.2777156318219084,
+        "top_jsd_bits": 0.07282034370148822,
+        "delta_bottom_minus_top": 0.20489528812042018,
+        "null_mean": 0.1365678302214845,
+        "null_median": 0.13290178458144852,
+        "null_sd": 0.07006965006706352,
+        "null_q025": 0.012754642158653554,
+        "null_q975": 0.2818214704763957,
+        "upper_tail_exceedances": 1636,
+        "plus_one_p_directional": 0.1637,
+        "centered_two_sided_exceedances": 3358,
+        "plus_one_p_centered_two_sided": 0.3359,
+        "holm_p_6_directional": 0.3274,
+        "holm_p_6_centered_two_sided": 0.6718
+      },
+      "equal_wallet_profile": {
+        "bottom_jsd_bits": 0.04615374702002201,
+        "top_jsd_bits": 0.024823976398900605,
+        "delta_bottom_minus_top": 0.021329770621121402,
+        "null_mean": -0.015229066237539925,
+        "null_median": -0.014551031510134548,
+        "null_sd": 0.00846369186390938,
+        "null_q025": -0.033982000821611257,
+        "null_q975": -0.00045675728028380064,
+        "upper_tail_exceedances": 0,
+        "plus_one_p_directional": 0.0001,
+        "centered_two_sided_exceedances": 4,
+        "plus_one_p_centered_two_sided": 0.0005,
+        "holm_p_6_directional": 0.0006000000000000001,
+        "holm_p_6_centered_two_sided": 0.0015
+      },
+      "prevalence_profile": {
+        "bottom_jsd_bits": 0.060952909366998535,
+        "top_jsd_bits": 0.012555724017670342,
+        "delta_bottom_minus_top": 0.048397185349328194,
+        "null_mean": -0.007697999726069235,
+        "null_median": -0.007338267477933341,
+        "null_sd": 0.004372370782247186,
+        "null_q025": -0.017263563142278143,
+        "null_q975": -3.931050120977764e-05,
+        "upper_tail_exceedances": 0,
+        "plus_one_p_directional": 0.0001,
+        "centered_two_sided_exceedances": 0,
+        "plus_one_p_centered_two_sided": 0.0001,
+        "holm_p_6_directional": 0.0006000000000000001,
+        "holm_p_6_centered_two_sided": 0.0006000000000000001
+      },
+      "amount_edges": {
+        "bottom_jsd_bits": 0.4568845591593239,
+        "top_jsd_bits": 0.24324156752143888,
+        "delta_bottom_minus_top": 0.21364299163788503,
+        "null_mean": 0.1853982427704332,
+        "null_median": 0.18180184479273648,
+        "null_sd": 0.07901450454958726,
+        "null_q025": 0.03191725840650213,
+        "null_q975": 0.34531097269369593,
+        "upper_tail_exceedances": 3356,
+        "plus_one_p_directional": 0.3357,
+        "centered_two_sided_exceedances": 7046,
+        "plus_one_p_centered_two_sided": 0.7047,
+        "holm_p_6_directional": 0.3357,
+        "holm_p_6_centered_two_sided": 0.7047
+      },
+      "equal_wallet_edges": {
+        "bottom_jsd_bits": 0.251695651791695,
+        "top_jsd_bits": 0.13367223171276577,
+        "delta_bottom_minus_top": 0.11802342007892924,
+        "null_mean": -0.07612897481076662,
+        "null_median": -0.07504054093633869,
+        "null_sd": 0.01892909016220122,
+        "null_q025": -0.11589753873803364,
+        "null_q975": -0.042032265657767194,
+        "upper_tail_exceedances": 0,
+        "plus_one_p_directional": 0.0001,
+        "centered_two_sided_exceedances": 0,
+        "plus_one_p_centered_two_sided": 0.0001,
+        "holm_p_6_directional": 0.0006000000000000001,
+        "holm_p_6_centered_two_sided": 0.0006000000000000001
+      },
+      "binary_edges": {
+        "bottom_jsd_bits": 0.18596002023232266,
+        "top_jsd_bits": 0.07385380025993388,
+        "delta_bottom_minus_top": 0.11210621997238879,
+        "null_mean": -0.03400425148700168,
+        "null_median": -0.0322175788882321,
+        "null_sd": 0.016991809448129166,
+        "null_q025": -0.07300163408419749,
+        "null_q975": -0.0055969752756893105,
+        "upper_tail_exceedances": 0,
+        "plus_one_p_directional": 0.0001,
+        "centered_two_sided_exceedances": 0,
+        "plus_one_p_centered_two_sided": 0.0001,
+        "holm_p_6_directional": 0.0006000000000000001,
+        "holm_p_6_centered_two_sided": 0.0006000000000000001
+      }
+    }
+  },
+  "limitations": [
+    "The direct six-view randomization is a retrospective robustness audit, not a preregistered analysis.",
+    "Inference is conditional on October activity and the fixed September cohort definitions.",
+    "Wallet rows are treated as exchangeable and independent within purchase-size tier.",
+    "The audit concerns one selected election event and one follow-up month.",
+    "The test does not identify wealth, ideology, coordination, learning, or information advantage."
+  ]
+}
